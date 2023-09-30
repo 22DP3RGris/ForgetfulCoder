@@ -1,31 +1,54 @@
 <resources>
     <string name="app_name">Forgetful Coder</string>
-    <string name="settings">Settings</string>
-    <string name="leaderboard">Leaderboard</string>
-    <string name="learn">Learn</string>
     <string name="forgetful_coder">Forgetful Coder</string>
-    <string name="about">About</string>
-    <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text :(</string>
+
+
+    <!-- Python Compiler -->
     <string name="compiler">Compiler</string>
     <string name="output">OUTPUT</string>
     <string name="description">DESCRIPTION</string>
     <string name="run">RUN</string>
     <string name="reset">RESET</string>
     <string name="numeration">1\n2\n3\n4\n5\n6\n7\n8\n9\n10</string>
+
+
+    <!-- Menu Buttons -->
+    <string name="settings">Settings</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="learn">Learn</string>
+    <string name="about">About</string>
+
+
+    <!-- Category Names -->
     <string name="categories_label">Categories</string>
-    <string name="back_hover_text">Back</string>
     <string name="category_name_1">Python Basics</string>
     <string name="category_name_2">If Statements</string>
     <string name="category_name_3">For Loop</string>
-    <string name="cat_1_uzd_1">Hello World!</string>
+
+
+    <!-- Menu Text -->
+    <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text :(</string>
     <string name="leaderboard_text">Leaderboard:\nEs #1\nEs un tikai es.\nTu arī nē…</string>
     <string name="setting_text">Nez izdomajat ko te likt</string>
 
 
-
     <!--Chat1 -->
+    <string name="cat_1_uzd_1">Hello World!</string>
     <string name="chat1">Hello, I am a chatbot. I will help you learn programming.</string>
     <string name="task_description">The first thing any programmer\nshould do is type"Hello World!".\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
+
+    <!--Chat2 -->
+    <string name="chat2">Good job! You have completed your first program.</string>
+    <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make this program.</string>
+    <string name="function_name2">ProgrammingBasicsSecond</string>
+
+    <!--Chat3 -->
+    <string name="chat3">Good job! You have completed your second program.</string>
+    <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make this program.</string>
+    <string name="function_name3">ProgrammingBasicsThird</string>
+
+    <!-- Other Strings -->
+    <string name="back_hover_text">Back</string>
 
 </resources>
