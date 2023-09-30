@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:background="@color/background">
+    android:background="@color/background"
+    >
 
     <TextView
         android:id="@+id/navBarFill"
@@ -25,12 +26,12 @@
 
     <TextView
         android:id="@+id/headcat"
-        android:text="@string/register"
+        android:text="@string/forgetful_coder"
         android:fontFamily="@font/franklingothicheavy"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:background="@color/topbar"
         android:textColor="@color/white"
-        android:padding="10dp"
+        android:padding="20dp"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,45 +53,49 @@
 
     <EditText
         android:id="@+id/usernameReg"
-        android:text="@string/username"
-        android:textColor="@color/white"
+        android:hint="@string/username"
+        android:textColorHint="@color/white"
         android:layout_below="@+id/headcat"
         android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="25dp"
         android:paddingVertical="15dp"
-        android:paddingHorizontal="70dp"
+        android:inputType="none"
+        android:layout_marginHorizontal="70dp"
         />
 
     <EditText
         android:id="@+id/emailReg"
-        android:text="@string/email"
-        android:textColor="@color/white"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
         android:layout_below="@+id/usernameReg"
         android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="25dp"
         android:layout_marginTop="10dp"
         android:paddingVertical="15dp"
-        android:paddingHorizontal="95dp"
+        android:layout_marginHorizontal="70dp"
         />
 
     <EditText
         android:id="@+id/passwordReg"
-        android:text="@string/password"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:layout_below="@+id/emailReg"
         android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -98,16 +103,17 @@
         android:textSize="25dp"
         android:layout_marginTop="10dp"
         android:paddingVertical="15dp"
-        android:paddingHorizontal="70dp"
+        android:layout_marginHorizontal="70dp"
         />
 
     <EditText
         android:id="@+id/passwordConReg"
-        android:text="@string/passwordcon"
-        android:textColor="@color/white"
+        android:hint="@string/passwordcon"
+        android:textColorHint="@color/white"
         android:layout_below="@+id/passwordReg"
+        android:textColor="@color/white"
         android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
@@ -115,8 +121,9 @@
         android:textSize="25dp"
         android:layout_marginTop="10dp"
         android:paddingVertical="15dp"
-        android:paddingHorizontal="20dp"
+        android:layout_marginHorizontal="70dp"
         />
+
     <Button
         android:id="@+id/registerBtn"
         android:layout_below="@+id/passwordConReg"

@@ -60,6 +60,7 @@
             android:textSize="30sp"
             android:textColor="@color/white"
             android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/franklingothicheavy"
             android:text="@string/about_text"
             />
 
