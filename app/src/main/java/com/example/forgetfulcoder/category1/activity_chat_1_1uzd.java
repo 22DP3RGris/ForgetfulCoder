@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -32,17 +33,17 @@ public class activity_chat_1_1uzd extends AppCompatActivity {
         TextView Text10 = (TextView)findViewById(R.id.message10);
         TextView Text11 = (TextView)findViewById(R.id.message11);
 
-        Text2.setVisibility(View.VISIBLE);
-        Text3.setVisibility(View.VISIBLE);
-        Text4.setVisibility(View.VISIBLE);
-        Text5.setVisibility(View.VISIBLE);
-        Text6.setVisibility(View.VISIBLE);
-        Text7.setVisibility(View.VISIBLE);
-        Text8.setVisibility(View.VISIBLE);
-        Text9.setVisibility(View.VISIBLE);
-        Text10.setVisibility(View.VISIBLE);
-        Text11.setVisibility(View.VISIBLE);
-        compiler.setVisibility(View.VISIBLE);
+        ShowAfterDelay(Text2, 2);
+        ShowAfterDelay(Text3, 4);
+        ShowAfterDelay(Text4, 6);
+        ShowAfterDelay(Text5, 8);
+        ShowAfterDelay(Text6, 10);
+        ShowAfterDelay(Text7, 12);
+        ShowAfterDelay(Text8, 14);
+        ShowAfterDelay(Text9, 16);
+        ShowAfterDelay(Text10, 18);
+        ShowAfterDelay(Text11, 20);
+        ShowAfterDelay(compiler, 22);
 
         compiler.setOnClickListener(view -> {
             Intent i = new Intent(activity_chat_1_1uzd.this, Compiler.class);
@@ -51,5 +52,14 @@ public class activity_chat_1_1uzd extends AppCompatActivity {
             startActivity(i);
         });
         back.setOnClickListener(view -> finish());
+    }
+
+    public void ShowAfterDelay(TextView Obj, int miliseconds) {
+        Obj.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Obj.setVisibility(View.VISIBLE);
+            }
+        }, miliseconds * 1000);
     }
 }
