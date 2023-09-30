@@ -27,7 +27,10 @@
 
 
     <!-- Menu Text -->
-    <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text :(</string>
+<!--    <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text :(</string>-->
+    <string name="about_text">This app was created to help people explore subjects in STEM.\n\n
+        It was developed by a team of RVT students during a Hackathon event.\n\n
+        The main focus of the app is to assist individuals in learning programming in Python, providing them with a solid understanding of its fundamental concepts.</string>
     <string name="leaderboard_text">Leaderboard:\nEs #1\nEs un tikai es.\nTu arī nē…</string>
     <string name="setting_text">Log in\nLog Out\nReset progress</string>
 
