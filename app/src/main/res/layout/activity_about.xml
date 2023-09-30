@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/navBarFill"
-            android:layout_above="@+id/cat1"
+            android:layout_above="@+id/aboutTxt"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
             android:layout_width="match_parent"
