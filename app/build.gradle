@@ -21,11 +21,7 @@ android {
         }
         python {
             // Change to the Python installation directory:
-
-            buildPython "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311"
-
-            buildPython "C:/Program Files/Python311/python.exe"
-
+            buildPython "C:\\Users\\kompjuters\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
             pip {
                 install "timeout-decorator"
             }
@@ -44,7 +40,7 @@ android {
     }
     sourceSets {
         main {
-            python.srcDir "C:\\Users\\Artūrs\\AppData\\Local\\Programs\\Python\\Python311"
+            python.srcDir "src/main/python"
         }
     }
 }
