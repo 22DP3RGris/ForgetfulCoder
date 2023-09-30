@@ -34,7 +34,8 @@
 
     <!--Chat1 -->
     <string name="cat_1_uzd_1">Hello World!</string>
-    <string name="chat1">Hello, I am a chatbot. I will help you learn programming.</string>
+    <string name="message1">Hello, I am a chatbot. I will help you learn programming.</string>
+    <string name="message2">Hello, I am a chatbot. I will help you learn programming.</string>
     <string name="task_description">The first thing any programmer\nshould do is type"Hello World!".\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
 

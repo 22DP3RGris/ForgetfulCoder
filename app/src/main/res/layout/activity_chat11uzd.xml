@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    android:background="@color/topbar"
+    android:background="@color/background"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/navBarFill"
-            android:layout_above="@+id/chat1"
+            android:layout_above="@+id/message1"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
             android:layout_width="match_parent"
@@ -45,53 +45,79 @@
             android:layout_width="55dp"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/chat1"
+            android:layout_above="@+id/message1"
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
             android:src="@drawable/back_btn_png"
             android:contentDescription="@string/back_hover_text" />
 
-
-
-
-
         <TextView
-            android:id="@+id/chat1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/headcat"
-            android:lines="100"
-            android:maxLines="100"
-            android:minLines="30"
-            android:background="@color/background"/>
-
-        <TextView
+            android:id="@+id/message1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/headcat"
             android:layout_marginTop="30dp"
             android:layout_marginHorizontal="50dp"
-            android:text="@string/chat1"
+            android:text="@string/message1"
             android:textSize="20sp"
             android:background="@drawable/dialoga_box"
-            android:padding="10dp"
+            android:padding="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message1"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message2"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
             android:textColor="@color/white"
-            android:visibility="gone"
-            />
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message2"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message3"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message3"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message4"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/goToComp"
-            android:layout_below="@+id/chat1"
+            android:layout_below="@+id/message3"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:text="@string/compiler"
             android:backgroundTint="@color/login_register_button_color"
             android:fontFamily="@font/franklingothicheavy"
-            android:textSize="30sp" />
-
-
+            android:textSize="30sp"
+            android:visibility="gone"/>
 
 
     </RelativeLayout>
