@@ -19,14 +19,8 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
-        python {
-            // Change to the Python installation directory:
-            buildPython "C:/Program Files/Python311/python.exe"
 
-            pip {
-                install "timeout-decorator"
-            }
-        }
+
     }
 
     buildTypes {

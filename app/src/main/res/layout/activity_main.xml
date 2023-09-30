@@ -21,7 +21,7 @@
         android:backgroundTint="@color/text_background_color"
         android:fontFamily="@font/franklingothicheavy"
         android:gravity="center"
-        android:text="@string/forgetful_coder"
+        android:text="Forgetful coder"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"

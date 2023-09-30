@@ -30,7 +30,8 @@
         <TextView
             android:id="@+id/headcat"
             android:text="Categories"
-            android:textSize="50sp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
             android:background="@color/topbar"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -54,24 +55,28 @@
         <TextView
             android:id="@+id/cat1Text"
             android:text="1"
+            android:background="@drawable/cat_text_border"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
             android:layout_marginTop="10dp"
-            android:padding="15dp"/>
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
 
         <TextView
-            android:id="@+id/cat2Text"
-            android:text="1"
+            android:id="@+id/cat1Text2"
+            android:text="Category name"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
             android:layout_marginTop="10dp"
-            android:padding="15dp"/>
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
 
         <Button
             android:id="@+id/cat1"
@@ -79,8 +84,34 @@
             android:layout_width="match_parent"
             android:layout_below="@+id/headcat"
             android:layout_height="wrap_content"
-            android:background="@drawable/cat_btn_color"
+            android:background="@drawable/cat_text_border"
             android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/cat2Text"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@drawable/cat_text_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat1"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <TextView
+            android:id="@+id/cat2Text2"
+            android:text="Category name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat1"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
 
         <Button
             android:id="@+id/cat2"
@@ -90,6 +121,32 @@
             android:layout_height="wrap_content"
             android:background="@drawable/cat_btn_color"
             android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/cat3Text"
+            android:text="3"
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat2"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <TextView
+            android:id="@+id/cat3Text2"
+            android:text="Category name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat2"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
 
         <Button
             android:id="@+id/cat3"
