@@ -66,6 +66,8 @@
     <string name="function_name3">ProgrammingBasicsThird</string>
 
     <!--Register and Login -->
+    <string name="register">Register</string>
+    <string name="username">Username</string>
 
 
     <!-- Other Strings -->

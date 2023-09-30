@@ -6,5 +6,7 @@
     <color name="topbar">#103954</color>
     <color name="login_register_button_color">#18537C</color>
     <color name="text_background_color">#46667D</color>
+    <color name="dialogue_box_color">#142835</color>
+    <color name="login_register_text">#46667D</color>
 
 </resources>
