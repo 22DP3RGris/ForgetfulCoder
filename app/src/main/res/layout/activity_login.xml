@@ -8,7 +8,7 @@
     android:background="@color/background">
 
     <TextView
-        android:id="@+id/headregister"
+        android:id="@+id/headLogin"
         android:text="@string/forgetful_coder"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="30sp"
@@ -21,44 +21,28 @@
 
 
     <EditText
-        android:id="@+id/usernameReg"
+        android:id="@+id/usernameLog"
         android:text="@string/username"
         android:textColor="@color/white"
-        android:layout_below="@+id/headregister"
+        android:layout_below="@+id/headLogin"
         android:background="@drawable/username_button_border"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="180dp"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="25dp"
         android:paddingVertical="15dp"
         android:paddingHorizontal="70dp"
         />
 
-    <EditText
-        android:id="@+id/emailReg"
-        android:text="@string/email"
-        android:textColor="@color/white"
-        android:layout_below="@+id/usernameReg"
-        android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="@font/franklingothicheavy"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:paddingVertical="15dp"
-        android:paddingHorizontal="95dp"
-        />
 
     <EditText
-        android:id="@+id/passwordReg"
+        android:id="@+id/passwordLog"
         android:text="@string/password"
         android:textColor="@color/white"
-        android:layout_below="@+id/emailReg"
+        android:layout_below="@+id/usernameLog"
         android:background="@drawable/username_button_border"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,27 +55,12 @@
         android:paddingHorizontal="70dp"
         />
 
-    <EditText
-        android:id="@+id/passwordConReg"
-        android:text="@string/passwordcon"
-        android:textColor="@color/white"
-        android:layout_below="@+id/passwordReg"
-        android:background="@drawable/username_button_border"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="@font/franklingothicheavy"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:paddingVertical="15dp"
-        android:paddingHorizontal="20dp"
-        />
+
     <Button
         android:id="@+id/registerBtn"
-        android:layout_below="@+id/passwordConReg"
+        android:layout_below="@+id/passwordLog"
         android:layout_marginTop="60dp"
-        android:text="@string/register"
+        android:text="@string/login"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="30dp"
         android:textAlignment="center"
@@ -99,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/login_register_button_color"
-        android:paddingHorizontal="40dp"/>
+        android:paddingHorizontal="60dp"/>
 
 
 
