@@ -35,7 +35,7 @@
     <string name="setting_text">Log in\nLog Out\nReset progress</string>
 
 
-    <!--Chat1 -->
+    <!--Chat1 Category1 -->
     <string name="cat_1_uzd_1">Hello World!</string>
     <string name="message1_1_1">Hello, I am a chatbot. I will help you learn programming.</string>
     <string name="message2_1_1">Let\'s start with the basics.</string>
@@ -51,7 +51,7 @@
     <string name="task_description">The first thing any programmer\nshould create program that outputs "Hello World!"\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
 
-    <!--Chat2 -->
+    <!--Chat2 Category1-->
     <string name="cat_1_uzd_2">Variables</string>
     <string name="message1">Good job! You have completed your first program.</string>
     <string name="message2">Now let\'s try something more complicated.</string>
@@ -64,7 +64,7 @@
     <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make this program.</string>
     <string name="function_name2">ProgrammingBasicsSecond</string>
 
-    <!--Chat3 -->
+    <!--Chat3 Category1-->
     <string name="cat_1_uzd_3">Data Types</string>
     <string name="chat3">Good job! You have completed your second program.</string>
     <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make this program.</string>
