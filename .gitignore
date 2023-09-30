@@ -1,6 +1,5 @@
 *.iml
 .gradle
-/python
 /local.properties
 /.idea/caches
 /.idea/libraries
