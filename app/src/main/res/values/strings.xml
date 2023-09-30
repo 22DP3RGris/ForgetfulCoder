@@ -5,5 +5,6 @@
     <string name="learn">Learn</string>
     <string name="forgetful_coder">Forgetful Coder</string>
     <string name="about">About</string>
+    <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text.</string>
 
 </resources>
