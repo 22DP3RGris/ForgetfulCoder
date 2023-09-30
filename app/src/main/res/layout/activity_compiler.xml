@@ -16,6 +16,7 @@
             android:layout_above="@+id/nummeration"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
+            android:fontFamily="@font/franklingothicheavy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"/>
@@ -56,6 +57,7 @@
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:fontFamily="@font/franklingothicheavy"
             android:paddingVertical="20dp"
             android:scrollbars="vertical"
             android:minLines="10"
@@ -77,6 +79,7 @@
             android:layout_below="@id/headCompiler"
             android:gravity="top|left"
             android:inputType="textMultiLine"
+            android:fontFamily="@font/franklingothicheavy"
             android:text=""
             android:lines="100"
             android:maxLines="100"
@@ -99,6 +102,7 @@
             android:layout_marginHorizontal="20dp"
             android:backgroundTint="#50C878"
             android:text="@string/run"
+            android:fontFamily="@font/franklingothicheavy"
             android:layout_marginVertical="10dp"
             android:layout_centerHorizontal="true"/>
 
@@ -108,6 +112,7 @@
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@id/centerShim"
             android:layout_height="match_parent"
+            android:fontFamily="@font/franklingothicheavy"
             android:layout_below="@id/codearea"
             android:layout_marginHorizontal="20dp"
             android:backgroundTint="#088F8F"
@@ -128,6 +133,7 @@
             android:textColor="@color/white"
             android:textSize="30dp"
             android:paddingBottom="20dp"
+
             android:layout_height="wrap_content"/>
 
         <TextView
