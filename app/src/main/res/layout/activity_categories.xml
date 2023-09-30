@@ -29,8 +29,8 @@
 
         <TextView
             android:id="@+id/headcat"
-            android:text="@string/levels"
-            android:textSize="40sp"
+            android:text="Categories"
+            android:textSize="50sp"
             android:background="@color/topbar"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -51,32 +51,54 @@
             android:src="@drawable/back_btn_png"
             />
 
+        <TextView
+            android:id="@+id/cat1Text"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headcat"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/cat1Text"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headcat"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
 
         <Button
             android:id="@+id/cat1"
-            android:text="@string/level1"
-            android:textSize="20sp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/headcat"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@drawable/cat_btn_color"
+            android:visibility="invisible"/>
 
         <Button
             android:id="@+id/cat2"
-            android:text="@string/level2"
-            android:textSize="20sp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat1"
             android:layout_height="wrap_content"
-            />
+            android:background="@drawable/cat_btn_color"
+            android:visibility="invisible"/>
 
         <Button
             android:id="@+id/cat3"
-            android:text="@string/level3"
-            android:textSize="20sp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat2"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@drawable/cat_btn_color"
+            android:visibility="invisible"/>
 
 
 
