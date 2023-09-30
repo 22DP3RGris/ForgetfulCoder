@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
     <color name="background">#315D7C</color>
     <color name="topbar">#103954</color>
     <color name="login_register_button_color">#18537C</color>

@@ -4,18 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Compiler">
+    tools:context=".categories"
+    android:background="#142835">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/navBarFill"
+            android:layout_above="@+id/nummeration"
+            android:background="@color/topbar"
+            android:backgroundTint="@color/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+
+        <View
+            android:id="@+id/centerShim"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/headCompiler"
+            android:text="@string/compiler"
+            android:textSize="40sp"
+            android:background="@color/topbar"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
 
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="55dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nummeration"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/topbar"
+            android:src="@drawable/back_btn_png"
+            />
 
+        <TextView
+            android:id="@+id/nummeration"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingVertical="20dp"
+            android:scrollbars="vertical"
+            android:minLines="10"
+            android:maxLines="100"
+            android:lines="100"
+            android:layout_below="@id/headCompiler"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/nummeration"
+            android:text="@string/nummeration" />
+
+        <EditText
+            android:id="@+id/codearea"
+            android:layout_width="match_parent"
+            android:background="@drawable/code_area"
+            android:layout_toRightOf="@id/nummeration"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headCompiler"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:lines="100"
+            android:maxLines="100"
+            android:minLines="10"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="10dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/centerShim"
+            android:layout_below="@id/codearea"
+            android:background="@drawable/title"
+            android:text="@string/output"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/centerShim"
+            android:layout_below="@id/codearea"
+            android:background="@drawable/title2"
+            android:text="@string/description"
+            android:paddingLeft="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/userOutput"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/centerShim"
+            android:layout_below="@id/output"
+            android:background="@drawable/output"
+            android:lines="100"
+            android:maxLines="100"
+            android:minLines="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/centerShim"
+            android:layout_below="@id/description"
+            android:background="@drawable/output2"
+            android:lines="100"
+            android:maxLines="100"
+            android:minLines="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
 
     </RelativeLayout>
-
-
 
 </ScrollView>
