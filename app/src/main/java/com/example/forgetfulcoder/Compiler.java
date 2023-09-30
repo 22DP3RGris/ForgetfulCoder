@@ -37,7 +37,7 @@ public class Compiler extends AppCompatActivity {
             public void onClick(View view) {
                 Python py = Python.getInstance();
                 PyObject pyobj = py.getModule("test");
-                PyObject obj = pyobj.callAttr("VariablesFirst", codearea.getText().toString());
+                PyObject obj = pyobj.callAttr("", codearea.getText().toString());
                 output.setText(obj.toString());
             }
         });
