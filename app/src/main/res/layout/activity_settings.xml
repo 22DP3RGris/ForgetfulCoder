@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/navBarFill"
-            android:layout_above="@+id/sett_text"
+            android:layout_above="@+id/loginBtn"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
             android:layout_width="match_parent"
@@ -46,25 +46,34 @@
             android:layout_width="55dp"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/sett_text"
+            android:layout_above="@+id/loginBtn"
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
             android:src="@drawable/back_btn_png"
             android:contentDescription="@string/back_hover_text" />
 
-        <TextView
-            android:id="@+id/sett_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/headcat"
-            android:layout_marginTop="30dp"
-            android:textSize="30dp"
-            android:textColor="@color/white"
-            android:fontFamily="@font/franklingothicheavy"
-            android:layout_marginHorizontal="30dp"
-            android:textAlignment="center"
-            android:text="@string/setting_text"
-            />
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/headcat"
+            android:layout_width="wrap_content"
+            android:text="@string/login"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="60dp"
+            android:backgroundTint="@color/login_register_button_color"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/loginBtn"
+            android:layout_width="wrap_content"
+            android:text="@string/register"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="45dp"
+            android:backgroundTint="@color/login_register_button_color"
+            android:layout_height="wrap_content"/>
 
     </RelativeLayout>
 
