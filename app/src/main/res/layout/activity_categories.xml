@@ -52,6 +52,16 @@
             android:src="@drawable/back_btn_png"
             android:contentDescription="@string/back_hover_text" />
 
+        <Button
+            android:id="@+id/cat1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/headcat"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cat_text_border"
+            />
+
+
         <TextView
             android:id="@+id/cat1Text"
             android:text="1"
@@ -78,14 +88,6 @@
             android:padding="15dp"
             android:fontFamily="@font/franklingothicheavy"/>
 
-        <Button
-            android:id="@+id/cat1"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_below="@+id/headcat"
-            android:layout_height="wrap_content"
-            android:background="@drawable/cat_text_border"
-            android:visibility="invisible"/>
 
         <TextView
             android:id="@+id/cat2Text"
