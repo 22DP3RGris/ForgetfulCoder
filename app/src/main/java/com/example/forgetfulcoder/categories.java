@@ -6,12 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.example.forgetfulcoder.category1.category1Activity;
-import com.example.forgetfulcoder.category2.category2Activity;
-import com.example.forgetfulcoder.category3.category3Activity;
+import com.example.forgetfulcoder.category1.cat_1_level;
+import com.example.forgetfulcoder.category2.cat_2_level;
+import com.example.forgetfulcoder.category3.cat_3_level;
 
 public class categories extends AppCompatActivity {
 
@@ -32,21 +31,21 @@ public class categories extends AppCompatActivity {
         category1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(categories.this, category1Activity.class);
+                Intent i = new Intent(categories.this, cat_1_level.class);
                 startActivity(i);
             }
         });
         category2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(categories.this, category2Activity.class);
+                Intent i = new Intent(categories.this, cat_2_level.class);
                 startActivity(i);
             }
         });
         category3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(categories.this, category3Activity.class);
+                Intent i = new Intent(categories.this, cat_3_level.class);
                 startActivity(i);
             }
         });
