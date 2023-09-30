@@ -29,18 +29,29 @@
     <!-- Menu Text -->
     <string name="about_text">This app was created by a forgetful coder. He forgot to add the about text :(</string>
     <string name="leaderboard_text">Leaderboard:\nEs #1\nEs un tikai es.\nTu arī nē…</string>
-    <string name="setting_text">Nez izdomajat ko te likt</string>
+    <string name="setting_text">Log in\nLog Out\nReset progress</string>
 
 
     <!--Chat1 -->
     <string name="cat_1_uzd_1">Hello World!</string>
     <string name="message1">Hello, I am a chatbot. I will help you learn programming.</string>
-    <string name="message2">Hello, I am a chatbot. I will help you learn programming.</string>
+    <string name="message2">Let\'s start with the basics.</string>
+    <string name="message3">The first thing any programmer should do is type "Hello World!".</string>
+    <string name="message4">To print something on screen use function "print()"</string>
+    <string name="message5">In a more common scenario, you\'d want to communicate some message to the end user.</string>
+    <string name="message6">First, you may pass a string literal directly to print():\nprint('Please wait while the program is loading…')</string>
     <string name="task_description">The first thing any programmer\nshould do is type"Hello World!".\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
 
     <!--Chat2 -->
-    <string name="chat2">Good job! You have completed your first program.</string>
+    <string name="message7">Good job! You have completed your first program.</string>
+    <string name="message8">Now let\'s try something more complicated.</string>
+    <string name="message9">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
+    <string name="message10">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
+    <string name="message11">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=):</string>
+    <string name="message12">message = "Please wait while the program is loading…"</string>
+    <string name="message13">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Please wait while the program is loading…"</string>
+    <string name="message14">You can also change the value of a variable later on:\nprint(message)</string>
     <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make this program.</string>
     <string name="function_name2">ProgrammingBasicsSecond</string>
 
