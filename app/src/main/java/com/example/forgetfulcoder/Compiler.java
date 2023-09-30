@@ -65,7 +65,7 @@ public class Compiler extends AppCompatActivity {
             }
         });
 
-        TextView nummeration = (TextView)findViewById(R.id.nummeration);
+        TextView nummeration = (TextView)findViewById(R.id.numeration);
 
         codearea.addTextChangedListener(new TextWatcher() {
             @Override
