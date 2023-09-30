@@ -54,11 +54,11 @@
 
         <Button
             android:id="@+id/cat1"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/headcat"
             android:layout_height="wrap_content"
             android:background="@drawable/cat_text_border"
+            android:paddingVertical="15dp"
             />
 
 
@@ -67,13 +67,13 @@
             android:text="1."
             android:background="@drawable/cat_text_border"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
-            android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:fontFamily="@font/franklingothicheavy"/>
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_above="@id/cat3"/>
 
         <TextView
             android:id="@+id/cat1Text2"
@@ -84,16 +84,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
-            android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:fontFamily="@font/franklingothicheavy"/>
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_above="@id/cat2"/>
 
         <Button
             android:id="@+id/cat2"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat1"
             android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
             android:background="@drawable/cat_btn_color"
             />
 
@@ -102,13 +102,13 @@
             android:text="2."
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:background="@drawable/cat_text_border"
+            android:background="@drawable/cat_text_border2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat1"
-            android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:fontFamily="@font/franklingothicheavy"/>
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_above="@id/cat3"/>
 
         <TextView
             android:id="@+id/cat2Text2"
@@ -119,17 +119,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat1"
-            android:layout_marginTop="10dp"
             android:padding="15dp"
             android:fontFamily="@font/franklingothicheavy"/>
 
         <Button
             android:id="@+id/cat3"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat2"
             android:layout_height="wrap_content"
             android:background="@drawable/cat_btn_color"
+            android:paddingVertical="15dp"
+
             />
 
         <TextView
@@ -141,9 +141,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat2"
-            android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:fontFamily="@font/franklingothicheavy"/>
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_above="@id/cat4Text"/>
 
         <TextView
             android:id="@+id/cat3Text2"
@@ -154,9 +154,331 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat2"
-            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_above="@id/cat4Text"/>
+
+        <TextView
+            android:id="@+id/cat4Text"
+            android:text="4."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat3"
             android:padding="15dp"
             android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat4Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat3"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat5Text"/>
+
+        <TextView
+            android:id="@+id/cat5Text"
+            android:text="5."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat4Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat5Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat4Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat6Text"/>
+
+        <TextView
+            android:id="@+id/cat6Text"
+            android:text="6."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat5Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat6Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat5Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat7Text"/>
+
+        <TextView
+            android:id="@+id/cat7Text"
+            android:text="7."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat6Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat7Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat6Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat8Text"/>
+
+        <TextView
+            android:id="@+id/cat8Text"
+            android:text="8."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat7Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat8Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat7Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat9Text"/>
+
+        <TextView
+            android:id="@+id/cat9Text"
+            android:text="9."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat8Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat9Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat8Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat10Text"/>
+
+        <TextView
+            android:id="@+id/cat10Text"
+            android:text="10."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat9Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat10Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat9Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat11Text"/>
+
+        <TextView
+            android:id="@+id/cat11Text"
+            android:text="11."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat10Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat11Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat10Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat12Text"/>
+
+        <TextView
+            android:id="@+id/cat12Text"
+            android:text="12."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat11Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat12Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat11Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat13Text"/>
+
+        <TextView
+            android:id="@+id/cat13Text"
+            android:text="13."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat12Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat13Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat12Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat14Text"/>
+
+        <TextView
+            android:id="@+id/cat14Text"
+            android:text="14."
+            android:background="@drawable/cat_text_border2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat13Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat14Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat13Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat15Text"/>
+
+        <TextView
+            android:id="@+id/cat15Text"
+            android:text="15."
+            android:background="@drawable/cat_text_border"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat14Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"/>
+
+        <ImageView
+            android:id="@+id/cat15Text2"
+            android:text="@string/category_name_3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat14Text"
+            android:padding="15dp"
+            android:fontFamily="@font/franklingothicheavy"
+            android:src="@drawable/lock"
+            android:layout_above="@+id/footer"/>
+
+
+        <View
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat15Text"/>
+
+
+
 
 
 
