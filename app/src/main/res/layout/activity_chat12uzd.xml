@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".category1.activity_chat_1_1uzd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/navBarFill"
+            android:layout_above="@+id/message1"
+            android:background="@color/topbar"
+            android:backgroundTint="@color/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+
+        <View
+            android:id="@+id/centerShim"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/headcat"
+            android:text="@string/cat_1_uzd_2"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@color/topbar"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="55dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/message1"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/topbar"
+            android:src="@drawable/back_btn_png"
+            android:contentDescription="@string/back_hover_text" />
+
+        <TextView
+            android:id="@+id/message1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headcat"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message1_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message1"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message2_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message2"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message3_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message3"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message4_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message4"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message5_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message5"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message6_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message6"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message7_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/message8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message7"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/message8_2_1"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/message9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message8"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/task_description2"
+            android:textSize="20sp"
+            android:background="@drawable/dialoga_box"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToComp"
+            android:layout_below="@+id/message9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/compiler"
+            android:backgroundTint="@color/login_register_button_color"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

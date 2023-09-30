@@ -53,15 +53,15 @@
 
     <!--Chat2 Category1-->
     <string name="cat_1_uzd_2">Variables</string>
-    <string name="message1">Good job! You have completed your first program.</string>
-    <string name="message2">Now let\'s try something more complicated.</string>
-    <string name="message3">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
-    <string name="message4">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
-    <string name="message5">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=)</string>
-    <string name="message6">message = "Hello my Friends!"</string>
-    <string name="message7">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Hello my Friends!"</string>
-    <string name="message8">You can also change the value of a variable later on:\nprint(message)</string>
-    <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make this program.</string>
+    <string name="message1_2_1">Good job! You have completed your first program.</string>
+    <string name="message2_2_1">Now let\'s try something more complicated.</string>
+    <string name="message3_2_1">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
+    <string name="message4_2_1">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
+    <string name="message5_2_1">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=)</string>
+    <string name="message6_2_1">message = "Hello my Friends!"</string>
+    <string name="message7_2_1">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Hello my Friends!"</string>
+    <string name="message8_2_1">You can also change the value of a variable later on:\nprint(message)</string>
+    <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make program, which assigns the value \n('Hello World!') to the variable \n(result).</string>
     <string name="function_name2">ProgrammingBasicsSecond</string>
 
     <!--Chat3 Category1-->
@@ -75,11 +75,6 @@
     <string name="cat_2_uzd_1">If Statements</string>
     <string name="message1_1_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
     <string name="message2_1_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
-
-
-
-
-
 
 
     <!--Register and Login -->
