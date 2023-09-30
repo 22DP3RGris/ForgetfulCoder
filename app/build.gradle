@@ -19,6 +19,12 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
+        python {
+            buildPython "C:/Program Files/Python311/python.exe"
+            pip {
+                install "timeout-decorator"
+            }
+        }
 
 
     }
@@ -33,6 +39,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    sourceSets {
+        main {
+            python.srcDir "src/main/python"
+        }
+    }
+
 }
 
 dependencies {
