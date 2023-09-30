@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".settingsActivity"/>
+    tools:context=".categories"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/navBarFill"
+            android:layout_above="@+id/sett_text"
+            android:background="@color/topbar"
+            android:backgroundTint="@color/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+
+        <View
+            android:id="@+id/centerShim"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/headcat"
+            android:text="@string/settings"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@color/topbar"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="55dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sett_text"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/topbar"
+            android:src="@drawable/back_btn_png"
+            android:contentDescription="@string/back_hover_text" />
+
+        <TextView
+            android:id="@+id/sett_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headcat"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/franklingothicheavy"
+            android:layout_marginHorizontal="30dp"
+            android:textAlignment="center"
+            android:text="@string/setting_text"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

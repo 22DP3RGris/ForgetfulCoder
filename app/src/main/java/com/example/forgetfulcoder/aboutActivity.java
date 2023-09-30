@@ -14,4 +14,5 @@ public class aboutActivity extends AppCompatActivity {
         ImageView back = (ImageView)findViewById(R.id.backBtn);
         back.setOnClickListener(view -> finish());
     }
+
 }

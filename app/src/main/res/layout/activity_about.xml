@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +12,7 @@
 
         <TextView
             android:id="@+id/navBarFill"
-            android:layout_above="@+id/aboutTxt"
+            android:layout_above="@+id/about_text"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
             android:layout_width="match_parent"
@@ -46,26 +45,23 @@
             android:layout_width="55dp"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/aboutTxt"
+            android:layout_above="@+id/about_text"
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
             android:src="@drawable/back_btn_png"
             android:contentDescription="@string/back_hover_text" />
 
         <TextView
-            android:id="@+id/aboutTxt"
+            android:id="@+id/about_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
             android:layout_marginTop="30dp"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textColor="@color/white"
             android:layout_marginHorizontal="30dp"
             android:text="@string/about_text"
             />
-
-
-
 
 
 
