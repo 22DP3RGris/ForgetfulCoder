@@ -79,15 +79,15 @@ public class Compiler extends AppCompatActivity {
                 if (lines < 10){
                     lines = 10;
                 }
-                String linesText = "";
+                StringBuilder linesText = new StringBuilder();
                 for (int j = 1; j <= lines; j++) {
                     if (j != lines) {
-                        linesText = linesText + j + '\n';
+                        linesText.append(j).append('\n');
                     } else {
-                        linesText = linesText + j;
+                        linesText.append(j);
                     }
                 }
-                nummeration.setText(linesText);
+                nummeration.setText(linesText.toString());
             }
 
             @Override
