@@ -25,16 +25,16 @@ def ProgrammingBasicsSecond(codeAreaData):
 
 def ProgrammingBasicsThird(codeAreaData):
 
-    distance = [60, 35, 90, 6, 10, 100, 1000, 90, 45, 65, -200, 2150, -1, 5, 9]
-    time = [5, 7, 90, 60, 2, 5, 2000, 4, 75, 15, 20, 50, 2, 50, 90000000]
+    x = [2, 35, 90, 6, 10, 100, 1000, 90, 45, 65, -200, 2150, -1, 5, 9]
+    y = [5, 7, 90, 60, 2, 5, 2000, 4, 75, 15, 20, 50, 2, 50, 90000000]
 
     # Mūsu programma, kas aprēķinās rezultātu salīdzināšanai.
     result = [0] * 15
     for i in range(15):
-        result[i] = str(distance[i] /  time[i])
+        result[i] = str(x[i] + y[i])
 
     for i in range(15):
-        codeAreaDataT = codeAreaData + f"\n\nprint(calculateSpeed({distance[i]}, {time[i]}))"
+        codeAreaDataT = codeAreaData + f"\n\nprint(twoDigitsSum({x[i]}, {y[i]}))"
         codeAreaDataT = test(codeAreaDataT)
         if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
             continue
