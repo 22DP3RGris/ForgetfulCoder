@@ -44,7 +44,7 @@ android {
     }
     sourceSets {
         main {
-            python.srcDir "C:\\Users\\Artūrs\\AppData\\Local\\Programs\\Python\\Python311"
+            python.srcDir ""
         }
     }
 }
