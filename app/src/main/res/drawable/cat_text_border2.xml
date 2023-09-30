@@ -5,7 +5,7 @@
     <!-- Upper rectangle (background color) -->
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/login_register_button_color" />
+            <solid android:color="#2C5B7C" />
         </shape>
     </item>
 </layer-list>
