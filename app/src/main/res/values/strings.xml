@@ -46,7 +46,7 @@
     <string name="message7_1_1">In this example message \'Message Text\' is string.</string>
     <string name="message8_1_1">A string is a sequence of characters. Strings are used to store text data.</string>
     <string name="message9_1_1">Strings are created by enclosing characters in single or double quotes.</string>
-    <string name="message10_1_1">\" or \'.</string>
+    <string name="message10_1_1">\" or \'</string>
     <string name="message11_1_1">Let\'s try write program that outputs \"Hello World!\"</string>
     <string name="task_description">The first thing any programmer\nshould create program that outputs "Hello World!"\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
