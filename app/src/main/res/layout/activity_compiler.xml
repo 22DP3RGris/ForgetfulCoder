@@ -135,7 +135,7 @@
             android:paddingVertical="10dp"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="27sp"
             android:paddingBottom="20dp"
 
             android:layout_height="wrap_content"/>
@@ -153,7 +153,7 @@
             android:paddingStart="5dp"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="27sp"
             android:paddingBottom="20dp"
             android:layout_height="wrap_content"
             tools:ignore="RtlSymmetry" />
