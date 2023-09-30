@@ -20,7 +20,8 @@ android {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
         python {
-            buildPython "C:/Program Files/Python311/python.exe"
+            // Change to the Python installation directory:
+            buildPython "python\\Scripts\\python.exe"
             pip {
                 install "timeout-decorator"
             }
