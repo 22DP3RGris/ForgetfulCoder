@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.forgetfulcoder.MainActivity;
 import com.example.forgetfulcoder.R;
-import com.example.forgetfulcoder.activity_chat_1_1uzd;
 
 public class cat_1_level extends AppCompatActivity {
     @Override

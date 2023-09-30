@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_chat_1_1uzd">
+    tools:context=".category1.activity_chat_1_1uzd">
 
     <RelativeLayout
         android:layout_width="match_parent"

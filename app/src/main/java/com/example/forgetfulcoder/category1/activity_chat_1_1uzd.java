@@ -1,4 +1,4 @@
-package com.example.forgetfulcoder;
+package com.example.forgetfulcoder.category1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.forgetfulcoder.Compiler;
+import com.example.forgetfulcoder.R;
 
 public class activity_chat_1_1uzd extends AppCompatActivity {
 
