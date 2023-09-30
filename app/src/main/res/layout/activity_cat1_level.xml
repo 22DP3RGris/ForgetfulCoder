@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +13,7 @@
 
         <TextView
             android:id="@+id/navBarFill"
-            android:layout_above="@+id/Level1"
+            android:layout_above="@+id/cat1Level1"
             android:background="@color/topbar"
             android:backgroundTint="@color/topbar"
             android:layout_width="match_parent"
@@ -30,7 +31,7 @@
             android:id="@+id/headlevel"
             android:text="@string/category_name_1"
             android:fontFamily="@font/franklingothicheavy"
-            android:textSize="30sp"
+            android:textSize="30dp"
             android:background="@color/topbar"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -45,18 +46,52 @@
             android:layout_width="55dp"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/Level1"
+            android:layout_above="@+id/cat1Level1"
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
             android:src="@drawable/back_btn_png"
-            android:contentDescription="@string/back_hover_text" />
+            />
 
-        <Button
-            android:id="@+id/Level1"
-            android:layout_width="match_parent"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level1"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/headlevel"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/headlevel"/>
+            android:text="1"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:background="@drawable/cat_text_border"
+            android:layout_toLeftOf="@id/cat1Level2"
+            android:layout_marginRight="15dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_below="@id/headlevel"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cat_text_border"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/headlevel"
+            android:background="@drawable/cat_text_border"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp"
+            />
 
 
     </RelativeLayout>
