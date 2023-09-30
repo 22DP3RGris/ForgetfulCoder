@@ -18,35 +18,35 @@
         app:layout_constraintVertical_bias="0.063" />
 
     <Button
-        android:id="@+id/Learn_poga"
+        android:id="@+id/Learn_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Learn"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="159dp" />
+        android:text="@string/learn"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="151dp" />
 
     <Button
-        android:id="@+id/Leaderboard_pogas"
+        android:id="@+id/Leaderboard_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leaderboard"
-        tools:layout_editor_absoluteX="151dp"
+        android:text="@string/leaderboard"
+        tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="219dp" />
 
     <Button
-        android:id="@+id/Settings_poga"
+        android:id="@+id/Settings_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Settings"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:text="@string/settings"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="284dp" />
 
     <Button
-        android:id="@+id/About_poga"
+        android:id="@+id/About_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:text="@string/about"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="360dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
