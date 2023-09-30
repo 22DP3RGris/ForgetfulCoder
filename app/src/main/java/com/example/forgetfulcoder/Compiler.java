@@ -52,7 +52,7 @@ public class Compiler extends AppCompatActivity {
             public void onClick(View view) {
                 Python py = Python.getInstance();
                 PyObject pyobj = py.getModule("test");
-                PyObject obj = pyobj.callAttr("ProgrammingBasicsFirst",codearea.getText().toString());
+                PyObject obj = pyobj.callAttr(task,codearea.getText().toString());
                 output.setText(obj.toString());
             }
         });
