@@ -69,7 +69,7 @@
             android:textColor="@color/black"
             android:textAlignment="center"
             android:background="@drawable/nummeration"
-            android:text="@string/nummeration" />
+            android:text="@string/numeration" />
 
         <EditText
             android:id="@+id/codearea"
