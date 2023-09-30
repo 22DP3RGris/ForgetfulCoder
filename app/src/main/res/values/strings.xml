@@ -17,7 +17,11 @@
     <string name="category_name_1">Python Basics</string>
     <string name="category_name_2">If Statements</string>
     <string name="category_name_3">For Loop</string>
+    <string name="cat_1_uzd_1">Hello World!</string>
 
 
+
+    <!--Chat1 -->
+    <string name="teikums1">Man sitas suds jau besīīīīīiī!!!!!!!</string>
 
 </resources>
