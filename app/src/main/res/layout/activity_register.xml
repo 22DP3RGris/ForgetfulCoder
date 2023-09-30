@@ -8,8 +8,24 @@
     android:background="@color/background">
 
     <TextView
-        android:id="@+id/headregister"
-        android:text="@string/forgetful_coder"
+        android:id="@+id/navBarFill"
+        android:layout_above="@+id/usernameReg"
+        android:background="@color/topbar"
+        android:backgroundTint="@color/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <View
+        android:id="@+id/centerShim"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/headcat"
+        android:text="@string/register"
         android:fontFamily="@font/franklingothicheavy"
         android:textSize="30sp"
         android:background="@color/topbar"
@@ -17,14 +33,28 @@
         android:padding="10dp"
         android:textAlignment="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
+
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="55dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usernameReg"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/topbar"
+        android:src="@drawable/back_btn_png"
+        android:contentDescription="@string/back_hover_text" />
+
 
 
     <EditText
         android:id="@+id/usernameReg"
         android:text="@string/username"
         android:textColor="@color/white"
-        android:layout_below="@+id/headregister"
+        android:layout_below="@+id/headcat"
         android:background="@drawable/username_button_border"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
