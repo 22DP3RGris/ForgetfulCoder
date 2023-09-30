@@ -10,6 +10,7 @@ android {
     defaultConfig {
         applicationId "com.example.forgetfulcoder"
         minSdk 27
+        //noinspection OldTargetApi
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -21,11 +22,7 @@ android {
         }
         python {
             // Change to the Python installation directory:
-
-            buildPython "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311"
-
-            buildPython "C:/Program Files/Python311/python.exe"
-
+            buildPython "C:\\Users\\rovert\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
             pip {
                 install "timeout-decorator"
             }
@@ -44,7 +41,7 @@ android {
     }
     sourceSets {
         main {
-            python.srcDir "C:\\Users\\Artūrs\\AppData\\Local\\Programs\\Python\\Python311"
+            python.srcDir "src/main/python"
         }
     }
 }
