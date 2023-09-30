@@ -29,8 +29,8 @@
 
         <TextView
             android:id="@+id/headcat"
-            android:text="Levels"
-            android:textSize="40dp"
+            android:text="@string/levels"
+            android:textSize="40sp"
             android:background="@color/topbar"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -48,14 +48,14 @@
             android:layout_above="@+id/cat1"
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
-            android:src="@drawable/back_btn"
+            android:src="@drawable/back_btn_png"
             />
 
 
         <Button
             android:id="@+id/cat1"
-            android:text="Level1"
-            android:textSize="20dp"
+            android:text="@string/level1"
+            android:textSize="20sp"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_below="@+id/headcat"
@@ -63,8 +63,8 @@
 
         <Button
             android:id="@+id/cat2"
-            android:text="Level2"
-            android:textSize="20dp"
+            android:text="@string/level2"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat1"
             android:layout_height="wrap_content"
@@ -72,8 +72,8 @@
 
         <Button
             android:id="@+id/cat3"
-            android:text="Level3"
-            android:textSize="20dp"
+            android:text="@string/level3"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_below="@+id/cat2"
             android:layout_height="wrap_content"/>
