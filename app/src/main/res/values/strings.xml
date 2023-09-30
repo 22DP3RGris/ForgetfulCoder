@@ -65,6 +65,9 @@
     <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make this program.</string>
     <string name="function_name3">ProgrammingBasicsThird</string>
 
+    <!--Register and Login -->
+
+
     <!-- Other Strings -->
     <string name="back_hover_text">Back</string>
 

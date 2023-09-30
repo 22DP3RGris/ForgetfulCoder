@@ -22,7 +22,7 @@ android {
         }
         python {
             // Change to the Python installation directory:
-            buildPython "C:/Program Files/Python311/python.exe"
+            buildPython "C:\\Program Files\\Python311\\python.exe"
             pip {
                 install "timeout-decorator"
             }
