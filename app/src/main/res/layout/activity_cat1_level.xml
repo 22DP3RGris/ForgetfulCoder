@@ -57,15 +57,17 @@
             android:layout_marginTop="20dp"
             android:layout_below="@id/headlevel"
             android:layout_width="wrap_content"
+            android:paddingVertical="25dp"
             android:layout_height="wrap_content"
             android:tooltipText="@string/cat_1_uzd_1"
             android:text="1"
             android:fontFamily="@font/franklingothicheavy"
             android:textSize="30sp"
-            android:background="@drawable/cat_text_border"
+            android:background="@drawable/level_btn"
             android:textColor="@color/white"
             android:layout_toStartOf="@id/cat1Level2"
-            android:layout_marginEnd="15dp"
+            android:layout_marginEnd="40dp"
+
             />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -75,8 +77,9 @@
             android:tooltipText="@string/cat_1_uzd_2"
             android:text="2"
             android:layout_below="@id/headlevel"
+            android:paddingVertical="25dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/cat_text_border"
+            android:background="@drawable/level_btn"
             android:fontFamily="@font/franklingothicheavy"
             android:textColor="@color/white"
             android:textSize="30dp"
@@ -91,14 +94,264 @@
             android:text="3"
             android:layout_toRightOf="@id/cat1Level2"
             android:layout_marginTop="20dp"
+            android:paddingVertical="25dp"
             android:layout_below="@id/headlevel"
             android:textColor="@color/white"
-            android:background="@drawable/cat_text_border"
+            android:background="@drawable/level_btn"
             android:fontFamily="@font/franklingothicheavy"
             android:textSize="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="40dp"
             />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level4"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/cat1Level1"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@drawable/level_btn"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@id/cat1Level2"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/lock"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat1Level1"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="30dp"
+            android:padding ="20dp"
+            android:layout_below="@id/cat1Level1"
+            android:textColor="@color/white"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableStart="@drawable/lock"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level7"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/cat1Level4"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@drawable/level_btn"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@id/cat1Level2"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/lock"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat1Level4"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="30dp"
+            android:padding ="20dp"
+            android:layout_below="@id/cat1Level4"
+            android:textColor="@color/white"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableStart="@drawable/lock"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level10"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/cat1Level7"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@drawable/level_btn"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@id/cat1Level2"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/lock"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat1Level7"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="30dp"
+            android:padding ="20dp"
+            android:layout_below="@id/cat1Level7"
+            android:textColor="@color/white"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level13"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/cat1Level10"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@drawable/level_btn"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@id/cat1Level2"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/lock"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat1Level10"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="30dp"
+            android:padding ="20dp"
+            android:layout_below="@id/cat1Level10"
+            android:textColor="@color/white"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level16"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/cat1Level13"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30sp"
+            android:background="@drawable/level_btn"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@id/cat1Level2"
+            android:layout_marginEnd="40dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/lock"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat1Level13"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/lock"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cat1Level18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cat1Level2"
+            android:layout_marginTop="30dp"
+            android:padding ="20dp"
+            android:layout_below="@id/cat1Level13"
+            android:textColor="@color/white"
+            android:background="@drawable/level_btn"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableStart="@drawable/lock"
+            />
 
     </RelativeLayout>
 
