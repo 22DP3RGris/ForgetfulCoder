@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#315D7C</color>
     <color name="topbar">#103954</color>
     <color name="login_register_button_color">#18537C</color>
-    <color name="output_task_description_background">#18537C</color>
     <color name="text_background_color">#46667D</color>
-    <color name="bottom_text_background_color">#2C4351</color>
-    <color name="dialogue_box_color">#142835</color>
 
 </resources>
