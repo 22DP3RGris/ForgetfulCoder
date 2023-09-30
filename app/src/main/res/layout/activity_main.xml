@@ -11,7 +11,6 @@
 
 
     <TextView
-
         android:id="@+id/textView"
         android:layout_width="409dp"
         android:layout_height="103dp"
@@ -23,19 +22,14 @@
         android:text="Forgetful Coder"
         android:textAppearance="Franklin Gothic Heavy"
         android:textSize="48sp"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
         app:layout_constraintVertical_bias="0.0"
         android:backgroundTint="@color/text_background_color"
-        android:fontFamily="@font/FranklinGothicHeavy"/>
+        android:fontFamily="@font/franklingothicheavy"/>
 
     <Button
         android:id="@+id/Learn_poga"
@@ -46,7 +40,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/login_register_button_color"
-        android:fontFamily="@font/FranklinGothicHeavy"
+        android:fontFamily="@font/franklingothicheavy"
         android:text="Learn"
         android:textAllCaps="true"
         android:textSize="34sp"
@@ -66,7 +60,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/login_register_button_color"
-        android:fontFamily="@font/FranklinGothicHeavy"
+        android:fontFamily="@font/franklingothicheavy"
         android:text="Leaderboard"
         android:textAllCaps="true"
         android:textSize="16sp"
@@ -85,7 +79,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/login_register_button_color"
-        android:fontFamily="@font/FranklinGothicHeavy"
+        android:fontFamily="@font/franklingothicheavy"
         android:text="Settings"
         android:textAllCaps="true"
         android:textSize="16sp"
@@ -104,7 +98,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/login_register_button_color"
-        android:fontFamily="@font/FranklinGothicHeavy"
+        android:fontFamily="@font/franklingothicheavy"
         android:text="About"
         android:textAllCaps="true"
         android:textSize="16sp"
@@ -113,49 +107,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Settings_poga" />
-
-        app:layout_constraintVertical_bias="0.103" />
-
-    <Button
-        android:id="@+id/Learn_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:text="@string/learn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Leaderboard_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/leaderboard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Learn_button" />
-
-    <Button
-        android:id="@+id/Settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/settings"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Leaderboard_button" />
-
-    <Button
-        android:id="@+id/About_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="@string/about"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Settings_button" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
