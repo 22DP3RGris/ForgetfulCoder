@@ -15,22 +15,13 @@ def ProgrammingBasicsFirst(codeAreaData):
 
 def ProgrammingBasicsSecond(codeAreaData):
 
-    x = [2, -4, 0, 7, 10, 100, 1000, 90, 45, 65, -23042, 2546, -1, 5, 9]
-    y = [3, 7, 90, 60, 0, 24, 2000, 4, 76, 23, -54, 76, 72, 34, 90000000]
-
-    # Mūsu programma, kas aprēķinās rezultātu salīdzināšanai.
-    result = [0] * 15
-    for i in range(15):
-        result[i] = str(x[i] + y[i])
-
-    for i in range(15):
-        codeAreaDataT = codeAreaData + f"\n\nprint(twoDigitsSum({x[i]}, {y[i]}))"
-        codeAreaDataT = test(codeAreaDataT)
-        if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
-            continue
-        else:
-            return f"Tests [{i+1}]\n\nJūsu result vērtība:\n{codeAreaDataT}\n\nSagaidīta {result[i]}\n x = {x[i]}\n y = {y[i]}"
-    return "Jūsu programma veiksmīgi izgāja visus testus."
+    result = ["Hello World!"]
+    codeAreaData += "\n\nprint(variableOuput())"
+    codeAreaDataT = test(codeAreaData)
+    if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':
+        return "Your program passed all tests!"
+    else:
+        return f"Test [1]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[0]}"
 
 def ProgrammingBasicsThird(codeAreaData):
 

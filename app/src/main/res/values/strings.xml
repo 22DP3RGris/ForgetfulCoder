@@ -58,9 +58,9 @@
     <string name="message3_2_1">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
     <string name="message4_2_1">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
     <string name="message5_2_1">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=)</string>
-    <string name="message6_2_1">message = \"Hello my Friends!\"</string>
-    <string name="message7_2_1">Now you can use the variable message anywhere in the program, and its value will be equal to the string \"Hello my Friends!\"</string>
-    <string name="message8_2_1">You can also change the value of a variable later on\n\nprint(message)</string>
+    <string name="message6_2_1">message = \'Hello my Friends!\'</string>
+    <string name="message7_2_1">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Hello my Friends!"</string>
+    <string name="message8_2_1">You can also change the value of a variable later on:\nprint(message)</string>
     <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make program, which assigns the value \n(\'Hello World!\') to the variable \n(result).</string>
     <string name="function_name2">ProgrammingBasicsSecond</string>
 
