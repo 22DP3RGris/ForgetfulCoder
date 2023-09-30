@@ -4,16 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:backgroundTint="#00FFFFFF"
+    tools:context=".MainActivity"
+    android:backgroundTintMode="@color/background"
+    android:background="@color/background">
+
 
     <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Forgetful Coder"
+        android:textAppearance="Franklin Gothic Heavy"
+        android:textSize="48sp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="@color/text_background_color"
+        android:fontFamily="@font/FranklinGothicHeavy"/>
+
+    <Button
+        android:id="@+id/Learn_poga"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/login_register_button_color"
+        android:fontFamily="@font/FranklinGothicHeavy"
+        android:text="Learn"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        app:icon="@drawable/book_solid__1_"
+        app:layout_constraintBottom_toTopOf="@+id/Leaderboard_pogas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/Leaderboard_pogas"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/login_register_button_color"
+        android:fontFamily="@font/FranklinGothicHeavy"
+        android:text="Leaderboard"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:icon="@drawable/clipboard_list_solid"
+        app:layout_constraintBottom_toTopOf="@+id/Settings_poga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Learn_poga" />
+
+    <Button
+        android:id="@+id/Settings_poga"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/login_register_button_color"
+        android:fontFamily="@font/FranklinGothicHeavy"
+        android:text="Settings"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:icon="@drawable/gear_solid"
+        app:layout_constraintBottom_toTopOf="@+id/About_poga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Leaderboard_pogas" />
+
+    <Button
+        android:id="@+id/About_poga"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/login_register_button_color"
+        android:fontFamily="@font/FranklinGothicHeavy"
+        android:text="About"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:icon="@drawable/lightbulb_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Settings_poga" />
+
         app:layout_constraintVertical_bias="0.103" />
 
     <Button
@@ -56,5 +156,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Settings_button" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
