@@ -72,6 +72,8 @@
     <string name="password">Password</string>
     <string name="passwordcon">Confirm Password</string>
 
+    <string name="login">Login</string>
+
 
     <!-- Other Strings -->
     <string name="back_hover_text">Back</string>
