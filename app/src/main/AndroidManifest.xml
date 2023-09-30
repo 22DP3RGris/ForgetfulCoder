@@ -22,6 +22,9 @@
             android:name=".settingsActivity"
             android:exported="false" />
         <activity
+            android:name=".Compiler"
+            android:exported="false" />
+        <activity
             android:name=".categories"
             android:exported="false" />
         <activity
