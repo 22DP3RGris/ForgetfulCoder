@@ -42,7 +42,7 @@
 
 
         <ImageView
-            android:id="@+id/backBtnLevel"
+            android:id="@+id/backBtn"
             android:layout_width="55dp"
             android:gravity="center"
             android:layout_height="wrap_content"
