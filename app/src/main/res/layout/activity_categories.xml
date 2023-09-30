@@ -29,9 +29,9 @@
 
         <TextView
             android:id="@+id/headcat"
-            android:text="Categories"
+            android:text="@string/categories_label"
             android:fontFamily="@font/franklingothicheavy"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:background="@color/topbar"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -50,14 +50,14 @@
             android:layout_alignParentTop="true"
             android:backgroundTint="@color/topbar"
             android:src="@drawable/back_btn_png"
-            />
+            android:contentDescription="@string/back_hover_text" />
 
         <TextView
             android:id="@+id/cat1Text"
             android:text="1"
             android:background="@drawable/cat_text_border"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
@@ -67,10 +67,10 @@
 
         <TextView
             android:id="@+id/cat1Text2"
-            android:text="Category name"
+            android:text="@string/category_name_1"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/headcat"
@@ -91,7 +91,7 @@
             android:id="@+id/cat2Text"
             android:text="2"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@drawable/cat_text_border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,10 +102,10 @@
 
         <TextView
             android:id="@+id/cat2Text2"
-            android:text="Category name"
+            android:text="@string/category_name_2"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat1"
@@ -127,7 +127,7 @@
             android:text="3"
             android:background="@drawable/cat_text_border"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat2"
@@ -137,10 +137,10 @@
 
         <TextView
             android:id="@+id/cat3Text2"
-            android:text="Category name"
+            android:text="@string/category_name_3"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/cat2"
