@@ -34,16 +34,16 @@ public class activity_chat_1_1uzd extends AppCompatActivity {
         TextView Text11 = (TextView)findViewById(R.id.message11);
 
         ShowAfterDelay(Text2, 2);
-        ShowAfterDelay(Text3, 4);
-        ShowAfterDelay(Text4, 6);
-        ShowAfterDelay(Text5, 8);
-        ShowAfterDelay(Text6, 10);
-        ShowAfterDelay(Text7, 12);
-        ShowAfterDelay(Text8, 14);
-        ShowAfterDelay(Text9, 16);
-        ShowAfterDelay(Text10, 18);
-        ShowAfterDelay(Text11, 20);
-        ShowAfterDelay(compiler, 22);
+        ShowAfterDelay(Text3, 3);
+        ShowAfterDelay(Text4, 5);
+        ShowAfterDelay(Text5, 6);
+        ShowAfterDelay(Text6, 7);
+        ShowAfterDelay(Text7, 9);
+        ShowAfterDelay(Text8, 11);
+        ShowAfterDelay(Text9, 13);
+        ShowAfterDelay(Text10, 15);
+        ShowAfterDelay(Text11, 17);
+        ShowAfterDelay(compiler, 18);
 
         compiler.setOnClickListener(view -> {
             Intent i = new Intent(activity_chat_1_1uzd.this, Compiler.class);
