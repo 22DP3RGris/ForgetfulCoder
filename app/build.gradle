@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.chaquo.python'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -19,8 +20,13 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
-
-
+        python {
+            // Change to the Python installation directory:
+            buildPython "C:\\Users\\rovert\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+            pip {
+                install "timeout-decorator"
+            }
+        }
     }
 
     buildTypes {
@@ -33,6 +39,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    sourceSets {
+        main {
+            python.srcDir "src/main/python"
+        }
+    }
 }
 
 dependencies {
@@ -40,6 +51,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
