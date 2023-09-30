@@ -7,10 +7,10 @@ def ProgrammingBasicsFirst(codeAreaData):
 
     result = ["Hello World!"]
     codeAreaDataT = test(codeAreaData)
-    if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
-        return "Jūsu programma veiksmīgi izgāja visus testus."
+    if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':
+        return "Your program passed all tests!"
     else:
-        return f"Tests [1]\n\nJūsu result vērtība:\n{codeAreaDataT}\n\nSagaidīta {result[i]}"
+        return f"Test [1]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[0]}"
 
 
 def ProgrammingBasicsSecond(codeAreaData):

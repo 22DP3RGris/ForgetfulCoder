@@ -19,6 +19,8 @@ public class activity_chat_1_1uzd extends AppCompatActivity {
 
         compiler.setOnClickListener(view -> {
             Intent i = new Intent(activity_chat_1_1uzd.this, Compiler.class);
+            i.putExtra("description", "The first thing any programmer\nshould do is type\"Hello World!\".\n\nTry to make this program.");
+            i.putExtra("task", "ProgrammingBasicsFirst");
             startActivity(i);
         });
         back.setOnClickListener(view -> finish());

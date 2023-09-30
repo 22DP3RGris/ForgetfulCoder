@@ -2,6 +2,7 @@ package com.example.forgetfulcoder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -26,12 +27,21 @@ public class Compiler extends AppCompatActivity {
         back.setOnClickListener(view -> finish());
 
 
-        TextView output = (TextView)findViewById(R.id.output);
+        TextView output = (TextView)findViewById(R.id.userOutput);
+        TextView descriptionOut = (TextView)findViewById(R.id.descriptionText);
         EditText codearea = (EditText)findViewById(R.id.codearea);
         String initialText;
         Button run = (Button)findViewById(R.id.run_btn);
         Button resetButton = (Button)findViewById(R.id.reset_btn);
         initialText = codearea.getText().toString();
+
+        Intent intent = getIntent();
+        String description = intent.getStringExtra("description");
+        String task = intent.getStringExtra("task");
+
+        descriptionOut.setText(description);
+
+
 
         if (! Python.isStarted()) {
             Python.start(new AndroidPlatform(this));
@@ -42,7 +52,7 @@ public class Compiler extends AppCompatActivity {
             public void onClick(View view) {
                 Python py = Python.getInstance();
                 PyObject pyobj = py.getModule("test");
-                PyObject obj = pyobj.callAttr("", codearea.getText().toString());
+                PyObject obj = pyobj.callAttr("ProgrammingBasicsFirst",codearea.getText().toString());
                 output.setText(obj.toString());
             }
         });
@@ -51,6 +61,7 @@ public class Compiler extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 codearea.setText(initialText);
+                output.setText("");
             }
         });
 

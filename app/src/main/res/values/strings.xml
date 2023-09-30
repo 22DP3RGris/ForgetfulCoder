@@ -25,5 +25,7 @@
 
     <!--Chat1 -->
     <string name="teikums1">Man sitas suds jau besīīīīīiī!!!!!!!</string>
+    <string name="taskDescription">The first thing any programmer\nshould do is type"Hello World!".\n\nTry to make this program.</string>
+    <string name="functionName">ProgrammingBasicsFirst</string>
 
 </resources>
