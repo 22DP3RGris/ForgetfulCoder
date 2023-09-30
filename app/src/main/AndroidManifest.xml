@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ForgetfulCoder"
         tools:targetApi="31">
         <activity
+            android:name=".category1.cat_1_level"
+            android:exported="false" />
+        <activity
             android:name=".category3.category3Activity"
             android:exported="false" />
         <activity
