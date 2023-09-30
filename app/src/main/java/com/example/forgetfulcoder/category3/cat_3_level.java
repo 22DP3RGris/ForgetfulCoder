@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.forgetfulcoder.R;
 
-public class category3Activity extends AppCompatActivity {
+public class cat_3_level extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category3);
+        setContentView(R.layout.activity_cat3_level);
     }
 }
