@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categories"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/navBarFill"
+            android:layout_above="@+id/Level1"
+            android:background="@color/topbar"
+            android:backgroundTint="@color/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+
+        <View
+            android:id="@+id/centerShim"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/headlevel"
+            android:text="Inroduction to STEM"
+            android:fontFamily="@font/franklingothicheavy"
+            android:textSize="30dp"
+            android:background="@color/topbar"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageView
+            android:id="@+id/backBtnLevel"
+            android:layout_width="55dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Level1"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/topbar"
+            android:src="@drawable/back_btn_png"
+            />
+
+        <Button
+            android:id="@+id/Level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/headlevel"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
