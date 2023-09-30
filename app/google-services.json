@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "96761864581",
+    "firebase_url": "https://forgetful-coder-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "forgetful-coder",
+    "storage_bucket": "forgetful-coder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96761864581:android:6d985ccb71770920e0e4ec",
+        "android_client_info": {
+          "package_name": "com.example.forgetfulcoder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS9EXmYJlkkeF32MnQke7PmxI8O20nOdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
