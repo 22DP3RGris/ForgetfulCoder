@@ -35,7 +35,7 @@
     <string name="setting_text">Log in\nLog Out\nReset progress</string>
 
 
-    <!--Chat1 -->
+    <!--Chat1 Category1 -->
     <string name="cat_1_uzd_1">Hello World!</string>
     <string name="message1_1_1">Hello, I am a chatbot. I will help you learn programming.</string>
     <string name="message2_1_1">Let\'s start with the basics.</string>
@@ -51,24 +51,94 @@
     <string name="task_description">The first thing any programmer\nshould create program that outputs "Hello World!"\n\nTry to make this program.</string>
     <string name="function_name">ProgrammingBasicsFirst</string>
 
-    <!--Chat2 -->
+    <!--Chat2 Category1-->
     <string name="cat_1_uzd_2">Variables</string>
-    <string name="message1">Good job! You have completed your first program.</string>
-    <string name="message2">Now let\'s try something more complicated.</string>
-    <string name="message3">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
-    <string name="message4">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
-    <string name="message5">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=)</string>
-    <string name="message6">message = "Hello my Friends!"</string>
-    <string name="message7">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Hello my Friends!"</string>
-    <string name="message8">You can also change the value of a variable later on:\nprint(message)</string>
-    <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make this program.</string>
+    <string name="message1_2_1">Good job! You have completed your first program.</string>
+    <string name="message2_2_1">Now let\'s try something more complicated.</string>
+    <string name="message3_2_1">You could extract that message into its own variable with a meaningful name to enhance readability and promote code reuse</string>
+    <string name="message4_2_1">A variable is a container for a value, which can be of various types. You can think of variables as a way to store information in your program.</string>
+    <string name="message5_2_1">To create a variable, you just assign it a value and then start using it. Assignment is done with a single equals sign (=)</string>
+    <string name="message6_2_1">message = \'Hello my Friends!\'</string>
+    <string name="message7_2_1">Now you can use the variable message anywhere in the program, and its value will be equal to the string "Hello my Friends!"</string>
+    <string name="message8_2_1">You can also change the value of a variable later on:\nprint(message)</string>
+    <string name="task_description2">Now let\'s try something more complicated.\n\nTry to make program, which assigns the value \n(\'Hello World!\') to the variable \n(result).</string>
     <string name="function_name2">ProgrammingBasicsSecond</string>
 
-    <!--Chat3 -->
+    <!--Chat3 Category1-->
     <string name="cat_1_uzd_3">Data Types</string>
-    <string name="chat3">Good job! You have completed your second program.</string>
-    <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make this program.</string>
+    <string name="message1_3_1">Good job! You have completed your second program.</string>
+    <string name="message2_3_1">You already learned about String.</string>
+    <string name="message3_3_1">But there are many more data types in programming.</string>
+    <string name="message4_3_1">So string is a data type that stores text.</string>
+    <string name="message5_3_1">Variables that store integers are called int.</string>
+    <string name="message6_3_1">But decimal numbers are stored in float variables.</string>
+    <string name="message7_3_1">For a start, this information will be enough for you.</string>
+    <string name="message8_3_1">With integer numbers(int) and decimal(float) numbers, we can perform mathematical operations.</string>
+    <string name="message9_3_1">number_1 = 5\nnumber_2 = 2.5\n\nprint(number_1 + number_2)\n\nOutput: 7.5</string>
+    <string name="message10_3_1">It is important to remember that we use a dot for decimal numbers.</string>
+    <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make a program that sums two numbers represented by the variables (x) and (y), store it the variable (result).</string>
     <string name="function_name3">ProgrammingBasicsThird</string>
+
+    <!--Chat1 Category2-->
+    <string name="cat_2_uzd_1">Comparison Operators</string>
+    <string name="message1_1_2">Comparison operators allow you to compare values and make decisions based on those comparisons.</string>
+    <string name="message2_1_2">Time to introduce you to a new data type boolean.</string>
+    <string name="message3_1_2">Boolean has only possible two values: True/ False</string>
+    <string name="message5_1_2">Comparisons always return a boolean value</string>
+    <string name="message6_1_2">print(5 == 5)\n\nOutput: True</string>
+    <string name="task_description4">Now let\'s try something more complicated.\n\nTry to make program, where you have to insert a comparison operator between x and 5 so that the result value is True. (x = 7)</string>
+
+    <!--Chat2 Category2-->
+    <string name="cat_2_uzd_2">If Statements</string>
+    <string name="message1_2_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
+    <string name="message2_2_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
+    <string name="message3_2_2">Along with \'if\', programmers usually use comparison operators to return a value of True or False.</string>
+    <string name="message4_2_2">if 5 == 5:\n\tprint(\'Hello World!\')\n\nOutput: Hello World!</string>
+    <string name="message5_2_2">in case the condition is False, we can also use \'else\'</string>
+    <string name="message6_2_2">if x == 5:\n\tprint(\'Hello World!\')\nelse:\n\tprint(\'Bye World!\')\n\nOutput: Bye World!!</string>
+    <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n(x is less or equals 100)</string>
+
+    <!--Chat3 Category2-->
+    <string name="cat_2_uzd_3">Logical Operators</string>
+    <string name="message1_3_2">Logical operators are really useful for programs when you have more than one condition that has to be met or compared to.</string>
+    <string name="message2_3_2">There are 3 logical operators (and, or, not)</string>
+    <string name="message3_3_2">and - Returns true if both the operands are true</string>
+    <string name="message4_3_2">For example:\nx = 10\ny = 20 \nif x == 10 and y == 20:\n    print(\"True\")\n\nOutput:\nTrue</string>
+    <string name="message5_3_2">It will print True because x is equal to 10 and y is equal to 20 witch are the conditions that have to be met to execute the block of statements.</string>
+    <string name="message6_3_2">or - Returns true if either of the operands is true</string>
+    <string name="message7_3_2">For example:\nx = 9\ny = 20\nif x == 10 or y == 20:\n    print(\"True\")\n\nOutput:\nTrue</string>
+    <string name="message8_3_2">This program will also print True because even tho x is not equal to 10, y is equal to 20 and the program is asking for at least one of the conditions to be True.</string>
+    <string name="message9_3_2">not - Returns True if operand is false</string>
+    <string name="message10_3_2">For example:\nx = 10\nif not x == 10:\n    print(\"True\")\n\nOutput:\n</string>
+    <string name="message11_3_2">This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
+    <string name="message12_3_2"></string>
+
+    <!--Chat1 Category3-->
+    <string name="cat_3_uzd_1">For Loops</string>
+    <string name="message1_1_3">For loops are really helpful when you have a block of code that you need to run a set amount of times.</string>
+    <string name="message2_1_3">They contain a variable that has its value changed every time the code repeats</string>
+    <string name="message3_1_3">A for loop looks like this:\nfor integer in range(10):\n    print(integer)\n\nOutput:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9</string>
+    <string name="message4_1_3">You must always remember that the counting in the for loop starts from 0 and geos to the set value-1, unless you change it as we will show in a different level.</string>
+    <string name="message5_1_3"></string>
+    <string name="message6_1_3"></string>
+
+    <!--Chat2 Category3-->
+    <string name="cat_3_uzd_2">Logical Operators</string>
+    <string name="message1_2_3"></string>
+    <string name="message2_2_3"></string>
+    <string name="message3_2_3"></string>
+    <string name="message4_2_3"></string>
+    <string name="message5_2_3"></string>
+    <string name="message6_2_3"></string>
+
+    <!--Chat3 Category3-->
+    <string name="cat_3_uzd_3">Logical Operators</string>
+    <string name="message1_3_3"></string>
+    <string name="message2_3_3"></string>
+    <string name="message3_3_3"></string>
+    <string name="message4_3_3"></string>
+    <string name="message5_3_3"></string>
+    <string name="message6_3_3"></string>
 
     <!--Register and Login -->
     <string name="register">Register</string>

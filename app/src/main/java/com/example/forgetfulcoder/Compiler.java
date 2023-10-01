@@ -33,13 +33,15 @@ public class Compiler extends AppCompatActivity {
         String initialText;
         Button run = (Button)findViewById(R.id.run_btn);
         Button resetButton = (Button)findViewById(R.id.reset_btn);
-        initialText = codearea.getText().toString();
 
         Intent intent = getIntent();
         String description = intent.getStringExtra("description");
         String task = intent.getStringExtra("task");
+        String comment = intent.getStringExtra("comment");
 
         descriptionOut.setText(description);
+        codearea.setText(comment);
+        initialText = codearea.getText().toString();
 
 
 
@@ -52,7 +54,7 @@ public class Compiler extends AppCompatActivity {
             public void onClick(View view) {
                 Python py = Python.getInstance();
                 PyObject pyobj = py.getModule("test");
-                PyObject obj = pyobj.callAttr(task,codearea.getText().toString());
+                PyObject obj = pyobj.callAttr(task ,codearea.getText().toString());
                 output.setText(obj.toString());
             }
         });
