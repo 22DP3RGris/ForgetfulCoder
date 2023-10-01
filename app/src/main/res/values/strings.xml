@@ -74,7 +74,7 @@
     <string name="message6_3_1">But decimal numbers are stored in float variables.</string>
     <string name="message7_3_1">For a start, this information will be enough for you.</string>
     <string name="message8_3_1">With integer numbers(int) and decimal(float) numbers, we can perform mathematical operations.</string>
-    <string name="message9_3_1">number1 = 5\nnumber2 = 2.5\n\nprint(number1 + number2)\n\nOutput: 7.5</string>
+    <string name="message9_3_1">number_1 = 5\nnumber_2 = 2.5\n\nprint(number_1 + number_2)\n\nOutput: 7.5</string>
     <string name="message10_3_1">It is important to remember that we use a dot for decimal numbers.</string>
     <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make a program that sums two numbers represented by the variables (x) and (y), store it the variable (result).</string>
     <string name="function_name3">ProgrammingBasicsThird</string>
