@@ -44,7 +44,7 @@ def ProgrammingBasicsThird(codeAreaData):
 
 def IfStatementsFirst(codeAreaData):
     x = 7
-    result = [True]
+    result = ["True"]
     codeAreaData += f"\n\nprint(firstComparison({x}))"
     codeAreaDataT = test(codeAreaData)
     if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':

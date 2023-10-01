@@ -44,7 +44,7 @@ public class activity_chat_2_1uzd extends AppCompatActivity {
             Intent i = new Intent(activity_chat_2_1uzd.this, Compiler.class);
             i.putExtra("description", "Now let\'s try something more complicated.\n\nTry to make program, where you have to insert a comparison operator between x and 5 so that the result value is True. (x = 7)");
             i.putExtra("task", "IfStatementsFirst");
-            i.putExtra("comment", "def firstComparison(x):\n    \n   # Remember x value is 7\n    \n     result = (x 5)\n    return result");
+            i.putExtra("comment", "def firstComparison(x):\n    \n   # Remember x value is 7\n    \n    result = (x 5)\n    return result");
             startActivity(i);
         });
         back.setOnClickListener(view -> finish());
