@@ -39,9 +39,17 @@ def ProgrammingBasicsThird(codeAreaData):
         if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
             continue
         else:
-            return f"Tests [{i+1}]\n\nJūsu result vērtība:\n{codeAreaDataT}\n\nSagaidīta {result[i]}\n x = {x[i]}\n y = {y[i]}"
-    return "Jūsu programma veiksmīgi izgāja visus testus."
+            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}\n x = {x[i]}\n y = {y[i]}"
+    return "Your program passed all tests!"
 
+def IfStatementsFirst(codeAreaData):
+    result = [True]
+    codeAreaData += "\n\nprint(firstComparison(x))"
+    codeAreaDataT = test(codeAreaData)
+    if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':
+        return "Your program passed all tests!"
+    else:
+        return f"Test [1]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[0]}"
 
 @timeout_decorator.timeout(5)
 def test(codeAreaData):

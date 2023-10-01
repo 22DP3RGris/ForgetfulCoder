@@ -79,11 +79,19 @@
     <string name="task_description3">Now let\'s try something more complicated.\n\nTry to make a program that sums two numbers represented by the variables (x) and (y), store it the variable (result).</string>
     <string name="function_name3">ProgrammingBasicsThird</string>
 
-
     <!--Chat1 Category2-->
-    <string name="cat_2_uzd_1">If Statements</string>
-    <string name="message1_1_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
-    <string name="message2_1_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
+    <string name="cat_2_uzd_1">Comparison Operators</string>
+    <string name="message1_1_2">Comparison operators allow you to compare values and make decisions based on those comparisons.</string>
+    <string name="message2_1_2">Time to introduce you to a new data type boolean.</string>
+    <string name="message3_1_2">Boolean has only possible two values: True/ False</string>
+    <string name="message5_1_2">Comparisons always return a boolean value</string>
+    <string name="message6_1_2">print(5 == 5)\n\nOutput: True</string>
+    <string name="task_description4">Now let\'s try something more complicated.\n\nTry to make program, where you have to insert a comparison operator between x and 5 so that the result value is True. (x = 7)</string>
+
+    <!--Chat2 Category2-->
+    <string name="cat_2_uzd_2">If Statements</string>
+    <string name="message1_2_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
+    <string name="message2_2_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
 
 
     <!--Register and Login -->
