@@ -113,34 +113,6 @@
     <string name="message11_3_2">This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
     <string name="task_description6">Now let\'s try something more complicated.\n\nTry to make a program which compares is (x) in the range from 50 to 100 inclusive. Returns the result, True/False</string>
 
-
-    <!--Chat1 Category3-->
-    <string name="cat_3_uzd_1">For Loops</string>
-    <string name="message1_1_3">For loops are really helpful when you have a block of code that you need to run a set amount of times.</string>
-    <string name="message2_1_3">They contain a variable that has its value changed every time the code repeats</string>
-    <string name="message3_1_3">A for loop looks like this:\nfor integer in range(10):\n    print(integer)\n\nOutput:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9</string>
-    <string name="message4_1_3">You must always remember that the counting in the for loop starts from 0 and geos to the set value-1, unless you change it as we will show in a different level.</string>
-    <string name="message5_1_3"></string>
-    <string name="message6_1_3"></string>
-
-    <!--Chat2 Category3-->
-    <string name="cat_3_uzd_2">Logical Operators</string>
-    <string name="message1_2_3"></string>
-    <string name="message2_2_3"></string>
-    <string name="message3_2_3"></string>
-    <string name="message4_2_3"></string>
-    <string name="message5_2_3"></string>
-    <string name="message6_2_3"></string>
-
-    <!--Chat3 Category3-->
-    <string name="cat_3_uzd_3">Logical Operators</string>
-    <string name="message1_3_3"></string>
-    <string name="message2_3_3"></string>
-    <string name="message3_3_3"></string>
-    <string name="message4_3_3"></string>
-    <string name="message5_3_3"></string>
-    <string name="message6_3_3"></string>
-
     <!--Register and Login -->
     <string name="register">Register</string>
     <string name="username">Username</string>
