@@ -99,16 +99,46 @@
     <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n(x is less or equals 100)</string>
 
     <!--Chat3 Category2-->
-    <string name="cat_3_uzd_2">Logical Operators</string>
+    <string name="cat_2_uzd_3">Logical Operators</string>
     <string name="message1_3_2">Logical operators are really useful for programs when you have more than one condition that has to be met or compared to.</string>
     <string name="message2_3_2">There are 3 logical operators (and, or, not)</string>
     <string name="message3_3_2">and - Returns true if both the operands are true</string>
-    <string name="message4_3_2">For example:\nx = 10\ny = 20 \nif x == 10 and y == 20:\n    print(\"True\")\n\n It will print True because x is equal to 10 and y is equal to 20 witch are the conditions that have to be met to execute the block of statements.</string>
-    <string name="message5_3_2">or - Returns true if either of the operands is true</string>
-    <string name="message6_3_2">For example:\nx = 9\ny = 20\nif x == 10 or y == 20:\n    print(\"True\")\n\n This program will also print True because even tho x is not equal to 10, y is equal to 20 and the program is asking for at least one of the conditions to be True.</string>
-    <string name="message7_3_2">not - Returns True if operand is false</string>
-    <string name="message8_3_2">For example:\nx = 10\nif not x == 10:\n    print(\"True\")\n\n This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
-    <string name="task_description6">Now let\'s try something more complicated.\n\nTry to make a program, which compares whether (x) is between 50 and 100, inclusive. The result is stored in the variable (result) True or False</string>
+    <string name="message4_3_2">For example:\nx = 10\ny = 20 \nif x == 10 and y == 20:\n    print(\"True\")\n\nOutput:\nTrue</string>
+    <string name="message5_3_2">It will print True because x is equal to 10 and y is equal to 20 witch are the conditions that have to be met to execute the block of statements.</string>
+    <string name="message6_3_2">or - Returns true if either of the operands is true</string>
+    <string name="message7_3_2">For example:\nx = 9\ny = 20\nif x == 10 or y == 20:\n    print(\"True\")\n\nOutput:\nTrue</string>
+    <string name="message8_3_2">This program will also print True because even tho x is not equal to 10, y is equal to 20 and the program is asking for at least one of the conditions to be True.</string>
+    <string name="message9_3_2">not - Returns True if operand is false</string>
+    <string name="message10_3_2">For example:\nx = 10\nif not x == 10:\n    print(\"True\")\n\nOutput:\n</string>
+    <string name="message11_3_2">This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
+    <string name="message12_3_2"></string>
+
+    <!--Chat1 Category3-->
+    <string name="cat_3_uzd_1">For Loops</string>
+    <string name="message1_1_3">For loops are really helpful when you have a block of code that you need to run a set amount of times.</string>
+    <string name="message2_1_3">They contain a variable that has its value changed every time the code repeats</string>
+    <string name="message3_1_3">A for loop looks like this:\nfor integer in range(10):\n    print(integer)\n\nOutput:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9</string>
+    <string name="message4_1_3">You must always remember that the counting in the for loop starts from 0 and geos to the set value-1, unless you change it as we will show in a different level.</string>
+    <string name="message5_1_3"></string>
+    <string name="message6_1_3"></string>
+
+    <!--Chat2 Category3-->
+    <string name="cat_3_uzd_2">Logical Operators</string>
+    <string name="message1_2_3"></string>
+    <string name="message2_2_3"></string>
+    <string name="message3_2_3"></string>
+    <string name="message4_2_3"></string>
+    <string name="message5_2_3"></string>
+    <string name="message6_2_3"></string>
+
+    <!--Chat3 Category3-->
+    <string name="cat_3_uzd_3">Logical Operators</string>
+    <string name="message1_3_3"></string>
+    <string name="message2_3_3"></string>
+    <string name="message3_3_3"></string>
+    <string name="message4_3_3"></string>
+    <string name="message5_3_3"></string>
+    <string name="message6_3_3"></string>
 
     <!--Register and Login -->
     <string name="register">Register</string>
