@@ -18,7 +18,6 @@ public class activity_chat_2_1uzd extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat21uzd);
-
         Button compiler = (Button)findViewById(R.id.goToComp);
         ImageView back = (ImageView)findViewById(R.id.backBtn);
         TextView Text1 = (TextView)findViewById(R.id.message1);
@@ -57,7 +56,5 @@ public class activity_chat_2_1uzd extends AppCompatActivity {
                 Obj.setVisibility(View.VISIBLE);
             }
         }, miliseconds * 1000);
-
     }
-
 }

@@ -8,10 +8,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.forgetfulcoder.R;
-import com.example.forgetfulcoder.category1.activity_chat_1_1uzd;
-import com.example.forgetfulcoder.category1.activity_chat_1_2uzd;
-import com.example.forgetfulcoder.category1.activity_chat_1_3uzd;
-import com.example.forgetfulcoder.category1.cat_1_level;
 
 public class cat_2_level extends AppCompatActivity {
 

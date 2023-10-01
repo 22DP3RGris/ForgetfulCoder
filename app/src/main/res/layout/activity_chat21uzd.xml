@@ -7,7 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".category2.activity_chat_2_1uzd">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -165,6 +164,5 @@
 
 
     </RelativeLayout>
-
 
 </ScrollView>
