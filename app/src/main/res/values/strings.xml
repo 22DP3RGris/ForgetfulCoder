@@ -93,10 +93,10 @@
     <string name="message1_2_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
     <string name="message2_2_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
     <string name="message3_2_2">Along with \'if\', programmers usually use comparison operators to return a value of True or False.</string>
-    <string name="message4_2_2">if 5 == 5:\n    print(\'Hello World!\')\n\nOutput: Hello World!</string>
+    <string name="message4_2_2">if 5 == 5:\n\tprint(\'Hello World!\')\n\nOutput: Hello World!</string>
     <string name="message5_2_2">in case the condition is False, we can also use \'else\'</string>
-    <string name="message6_2_2">if x == 5:\n    print(\'Hello World!\')\nelse:\n    print(\'Bye World!\')\n\nOutput: Bye World!!</string>
-    <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the result value will be\n(x is bigger than 100) or \n\(x is less or equals 100)</string>
+    <string name="message6_2_2">if x == 5:\n\tprint(\'Hello World!\')\nelse:\n\tprint(\'Bye World!\')\n\nOutput: Bye World!!</string>
+    <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n\(x is less or equals 100)</string>
 
     <!--Chat3 Category2-->
     <string name="cat_3_uzd_2">Logical Operators</string>
