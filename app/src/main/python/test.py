@@ -58,14 +58,14 @@ def IfStatementsSecond(codeAreaData):
     result = [0] * 10
 
     for i in range(10):
-        if x > 100:
+        if x[i] > 100:
             result[i] = "x is bigger than 100"
         else:
             result[i] = "x is less or equals 100"
 
         return result
     for i in range(10):
-        codeAreaData += f"\n\nprint(firstIfStatement({x}))"
+        codeAreaData += f"\n\nprint(firstIfStatement({x[i]}))"
         codeAreaDataT = test(codeAreaData)
         if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
             return "Your program passed all tests!"

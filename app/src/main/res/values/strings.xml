@@ -96,14 +96,19 @@
     <string name="message4_2_2">if 5 == 5:\n\tprint(\'Hello World!\')\n\nOutput: Hello World!</string>
     <string name="message5_2_2">in case the condition is False, we can also use \'else\'</string>
     <string name="message6_2_2">if x == 5:\n\tprint(\'Hello World!\')\nelse:\n\tprint(\'Bye World!\')\n\nOutput: Bye World!!</string>
-    <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n\(x is less or equals 100)</string>
+    <string name="task_description5">Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n(x is less or equals 100)</string>
 
     <!--Chat3 Category2-->
     <string name="cat_3_uzd_2">Logical Operators</string>
-    <string name="message1_3_2"></string>
-    <string name="message2_3_2"></string>
-
-
+    <string name="message1_3_2">Logical operators are really useful for programs when you have more than one condition that has to be met or compared to.</string>
+    <string name="message2_3_2">There are 3 logical operators (and, or, not)</string>
+    <string name="message3_3_2">and - Returns true if both the operands are true</string>
+    <string name="message4_3_2">For example:\nx = 10\ny = 20 \nif x == 10 and y == 20:\n    print(\"True\")\n\n It will print True because x is equal to 10 and y is equal to 20 witch are the conditions that have to be met to execute the block of statements.</string>
+    <string name="message5_3_2">or - Returns true if either of the operands is true</string>
+    <string name="message6_3_2">For example:\nx = 9\ny = 20\nif x == 10 or y == 20:\n    print(\"True\")\n\n This program will also print True because even tho x is not equal to 10, y is equal to 20 and the program is asking for at least one of the conditions to be True.</string>
+    <string name="message7_3_2">not - Returns True if operand is false</string>
+    <string name="message8_3_2">For example:\nx = 10\nif not x == 10:\n    print(\"True\")\n\n This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
+    <string name="message9_3_2"></string>
 
     <!--Register and Login -->
     <string name="register">Register</string>
