@@ -37,18 +37,6 @@
         />
 
 
-    <ImageView
-        android:id="@+id/backBtn"
-        android:layout_width="55dp"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/usernameLog"
-        android:layout_alignParentTop="true"
-        android:backgroundTint="@color/topbar"
-        android:src="@drawable/back_btn_png"
-        android:contentDescription="@string/back_hover_text" />
-
-
     <EditText
         android:id="@+id/usernameLog"
         android:hint="@string/username"
@@ -88,7 +76,7 @@
 
 
     <Button
-        android:id="@+id/registerBtn"
+        android:id="@+id/loginButton"
         android:layout_below="@+id/passwordLog"
         android:layout_marginTop="60dp"
         android:text="@string/login"
@@ -100,6 +88,19 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/login_register_button_color"
         android:paddingHorizontal="60dp"/>
+
+    <Button
+        android:id="@+id/toRegister"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="-10dp"
+        android:text="@string/toRegister"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:paddingHorizontal="80dp"/>
 
 
 

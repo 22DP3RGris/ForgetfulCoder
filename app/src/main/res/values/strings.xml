@@ -78,6 +78,7 @@
     <string name="passwordcon">Confirm Password</string>
 
     <string name="login">Login</string>
+    <string name="toRegister">Click here if you dont have an account</string>
 
 
     <!-- Other Strings -->
