@@ -94,8 +94,10 @@ public class Login extends AppCompatActivity {
                 });
             } else if (username == null) {
                 Notify("Invalid username");
+                return;
             } else if (password == null) {
                 Notify("Invalid password");
+                return;
             }
         });
 

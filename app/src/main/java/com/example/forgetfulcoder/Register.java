@@ -53,17 +53,6 @@ public class Register extends AppCompatActivity {
         return matches;
     }
 
-    public static Boolean ValidatePassword(String password) {
-        String PatternRegex = "[\\s+]";
-        Pattern pat = Pattern.compile(PatternRegex);
-        if (password == null || password == "") {
-            return false;
-        }
-
-        Boolean matches = pat.matcher(password).matches();
-        return matches;
-    }
-
     public void Notify(String reason) {
         TextView ErrorMessage = (TextView) findViewById(R.id.errornotify);
 
@@ -101,7 +90,7 @@ public class Register extends AppCompatActivity {
             String confirmpass = ConPassword.getText().toString();
 
             Boolean EmailValid = ValidateEmail(email);
-            Boolean PasswordValid = ValidatePassword(password);
+            Boolean PasswordValid = (password != null && password != "" && password != " ");
 
             if (EmailValid && username != null && PasswordValid && confirmpass.equals(password)) {
 
