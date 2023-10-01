@@ -161,7 +161,7 @@
             android:backgroundTint="@color/login_register_button_color"
             android:fontFamily="@font/franklingothicheavy"
             android:textSize="30sp"
-            android:visibility="visible"/>
+            android:visibility="gone"/>
 
 
     </RelativeLayout>
