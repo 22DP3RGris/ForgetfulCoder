@@ -71,6 +71,25 @@ def IfStatementsSecond(codeAreaData):
             return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}"
     return "Your program passed all tests!"
 
+def IfStatementsThird(codeAreaData):
+
+    x = [99, 101, 100, 56, -3, 10, 1000, 8, 0, 54]
+    result = [0] * 10
+    for i in range(10):
+        if x[i] <= 100 and x[i] >= 50:
+            result[i] = "True"
+        else:
+            result[i] = "False"
+
+    for i in range(10):
+        codeAreaDataT = codeAreaData + f"\n\nprint(isNumberInRange({x[i]}))"
+        codeAreaDataT = test(codeAreaDataT)
+        if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
+            continue
+        else:
+            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}"
+    return "Your program passed all tests!"
+
 @timeout_decorator.timeout(5)
 def test(codeAreaData):
 
