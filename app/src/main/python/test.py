@@ -52,6 +52,26 @@ def IfStatementsFirst(codeAreaData):
     else:
         return f"Test [1]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[0]}"
 
+def IfStatementsSecond(codeAreaData):
+
+    x = [99, 101, 100, 56, -3, 10, 1000, 8, 0, 54]
+    result = [0] * 10
+
+    for i in range(10):
+        if x > 100:
+            result[i] = "x is bigger than 100"
+        else:
+            result[i] = "x is less or equals 100"
+
+        return result
+    for i in range(10):
+        codeAreaData += f"\n\nprint(firstIfStatement({x}))"
+        codeAreaDataT = test(codeAreaData)
+        if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
+            return "Your program passed all tests!"
+        else:
+            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}"
+
 @timeout_decorator.timeout(5)
 def test(codeAreaData):
 
