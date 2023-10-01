@@ -16,7 +16,7 @@ def ProgrammingBasicsFirst(codeAreaData):
 def ProgrammingBasicsSecond(codeAreaData):
 
     result = ["Hello World!"]
-    codeAreaData += "\n\nprint(variableOuput())"
+    codeAreaData += "\n\nprint(variableOutput())"
     codeAreaDataT = test(codeAreaData)
     if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':
         return "Your program passed all tests!"
@@ -43,8 +43,9 @@ def ProgrammingBasicsThird(codeAreaData):
     return "Your program passed all tests!"
 
 def IfStatementsFirst(codeAreaData):
+    x = 7
     result = [True]
-    codeAreaData += "\n\nprint(firstComparison(x))"
+    codeAreaData += f"\n\nprint(firstComparison({x}))"
     codeAreaDataT = test(codeAreaData)
     if codeAreaDataT == result[0] or codeAreaDataT == result[0] + '\n':
         return "Your program passed all tests!"
