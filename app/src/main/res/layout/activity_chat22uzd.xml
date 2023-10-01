@@ -29,7 +29,7 @@
 
         <TextView
             android:id="@+id/headcat"
-            android:text="@string/cat_2_uzd_1"
+            android:text="@string/cat_2_uzd_2"
             android:fontFamily="@font/franklingothicheavy"
             android:textSize="25sp"
             android:background="@color/topbar"
