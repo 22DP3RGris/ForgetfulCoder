@@ -45,7 +45,7 @@ public class activity_chat_1_2uzd extends AppCompatActivity {
             Intent i = new Intent(activity_chat_1_2uzd.this, Compiler.class);
             i.putExtra("description", "Now let\'s try something more complicated.\n\nTry to make program, which assigns the value \n(\'Hello World!\') to the variable \n(result).");
             i.putExtra("task", "ProgrammingBasicsSecond");
-            i.putExtra("comment", "def variableOuput():\n\n    # Replace this with code\n\n    return result");
+            i.putExtra("comment", "def variableOutput():\n\n    # Replace this with code\n\n    return result");
             startActivity(i);
         });
         back.setOnClickListener(view -> finish());
