@@ -53,6 +53,17 @@ public class Register extends AppCompatActivity {
         return matches;
     }
 
+    public static Boolean ValidatePassword(String password) {
+        String PatternRegex = "[\\s+]";
+        Pattern pat = Pattern.compile(PatternRegex);
+        if (password == null || password == "") {
+            return false;
+        }
+
+        Boolean matches = pat.matcher(password).matches();
+        return matches;
+    }
+
     public void Notify(String reason) {
         TextView ErrorMessage = (TextView) findViewById(R.id.errornotify);
 
@@ -90,8 +101,9 @@ public class Register extends AppCompatActivity {
             String confirmpass = ConPassword.getText().toString();
 
             Boolean EmailValid = ValidateEmail(email);
+            Boolean PasswordValid = ValidatePassword(password);
 
-            if (EmailValid && username != null && password != null && confirmpass.equals(password)) {
+            if (EmailValid && username != null && PasswordValid && confirmpass.equals(password)) {
 
                 Ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                     @Override
@@ -125,12 +137,16 @@ public class Register extends AppCompatActivity {
                 });
             } else if (!EmailValid) {
                 Notify("Invalid email");
+                return;
             } else if (username == null) {
                 Notify("Invalid username");
-            } else if (password == null) {
+                return;
+            } else if (!PasswordValid) {
                 Notify("Invalid password");
+                return;
             } else if (!confirmpass.equals(password)) {
                 Notify("Passwords do not match");
+                return;
             }
         });
 

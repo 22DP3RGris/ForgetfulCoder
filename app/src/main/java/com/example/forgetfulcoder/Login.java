@@ -53,6 +53,11 @@ public class Login extends AppCompatActivity {
         EditText Password = (EditText)findViewById(R.id.passwordLog);
         sharedPreferences = getSharedPreferences("ForgetfulCoder", MODE_PRIVATE);
 
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();
+        editor.commit();
+
+
         if (sharedPreferences.getString("logged", "false").equals("true")) {
             Intent i = new Intent(Login.this, MainActivity.class);
             startActivity(i);
