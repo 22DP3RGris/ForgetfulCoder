@@ -111,7 +111,8 @@
     <string name="message9_3_2">not - Returns True if operand is false</string>
     <string name="message10_3_2">For example:\nx = 10\nif not x == 10:\n    print(\"True\")\n\nOutput:\n</string>
     <string name="message11_3_2">This program will not print out anything because it is asking for the condition to be False in order to execute the statement block.</string>
-    <string name="message12_3_2"></string>
+    <string name="task_description6">Now let\'s try something more complicated.\n\nTry to make a program which compares is (x) in the range from 50 to 100 inclusive. Returns the result, True/False</string>
+
 
     <!--Chat1 Category3-->
     <string name="cat_3_uzd_1">For Loops</string>
