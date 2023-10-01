@@ -13,10 +13,13 @@
         android:theme="@style/Theme.ForgetfulCoder"
         tools:targetApi="31">
         <activity
-            android:name=".category2.activity_chat_2_1uzd"
+            android:name=".category2.activity_chat_2_3_uzd"
             android:exported="false" />
         <activity
             android:name=".category2.activity_chat_2_2uzd"
+            android:exported="false" />
+        <activity
+            android:name=".category2.activity_chat_2_1uzd"
             android:exported="false" />
         <activity
             android:name=".category1.activity_chat_1_3uzd"

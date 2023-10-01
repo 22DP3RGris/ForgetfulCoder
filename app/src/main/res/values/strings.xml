@@ -93,6 +93,12 @@
     <string name="message1_2_2">If statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.</string>
     <string name="message2_2_2">The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won\'t.</string>
 
+    <!--Chat3 Category2-->
+    <string name="cat_3_uzd_2">Logical Operators</string>
+    <string name="message1_3_2"></string>
+    <string name="message2_3_2"></string>
+
+
 
     <!--Register and Login -->
     <string name="register">Register</string>
