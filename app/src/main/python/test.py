@@ -68,12 +68,12 @@ def IfStatementsSecond(codeAreaData):
         if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
             continue
         else:
-            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}"
+            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}\n x = {x[i]}"
     return "Your program passed all tests!"
 
 def IfStatementsThird(codeAreaData):
 
-    x = [99, 101, 100, 56, -3, 10, 1000, 8, 0, 54]
+    x = [99, 101, 100, 56, -3, 50, 1000, 8, 0, 54]
     result = [0] * 10
     for i in range(10):
         if x[i] <= 100 and x[i] >= 50:
@@ -87,7 +87,7 @@ def IfStatementsThird(codeAreaData):
         if codeAreaDataT == result[i] or codeAreaDataT == result[i] + '\n':
             continue
         else:
-            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}"
+            return f"Test [{i+1}]\n\nYour output:\n{codeAreaDataT}\n\nExpected: \n{result[i]}\n x = {x[i]}"
     return "Your program passed all tests!"
 
 @timeout_decorator.timeout(5)

@@ -12,12 +12,12 @@ import android.widget.TextView;
 import com.example.forgetfulcoder.Compiler;
 import com.example.forgetfulcoder.R;
 
-public class activity_chat_2_3_uzd extends AppCompatActivity {
+public class activity_chat_2_3uzd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat23_uzd);
+        setContentView(R.layout.activity_chat23uzd);
 
         Button compiler = (Button)findViewById(R.id.goToComp);
         ImageView back = (ImageView)findViewById(R.id.backBtn);
@@ -31,16 +31,32 @@ public class activity_chat_2_3_uzd extends AppCompatActivity {
         TextView Text8 = (TextView)findViewById(R.id.message8);
         TextView Text9 = (TextView)findViewById(R.id.message9);
         TextView Text10 = (TextView)findViewById(R.id.message10);
+        TextView Text11 = (TextView)findViewById(R.id.message11);
+        TextView Text12 = (TextView)findViewById(R.id.message12);
+        TextView Text13 = (TextView)findViewById(R.id.message13);
 
 
+        Text12.setText("There are some shortcuts for logical operators in math for example 10<x<20 witch is the same as to write 10 < x and x < 20, but dont worry about this now if you don`t understand. We will look at this in another level:)");
 
-        Text9.setText("There are some shortcuts for logical operators in math for example 10<x<20 witch is the same as to write 10 < x and x < 20, but dont worry about this now if you don`t understand. We will look at this in another level:)");
+        ShowAfterDelay(Text2, 2);
+        ShowAfterDelay(Text3, 3);
+        ShowAfterDelay(Text4, 5);
+        ShowAfterDelay(Text5, 6);
+        ShowAfterDelay(Text6, 7);
+        ShowAfterDelay(Text7, 9);
+        ShowAfterDelay(Text8, 11);
+        ShowAfterDelay(Text9, 13);
+        ShowAfterDelay(Text10, 15);
+        ShowAfterDelay(Text11, 17);
+        ShowAfterDelay(Text12, 19);
+        ShowAfterDelay(Text13, 21);
+        ShowAfterDelay(compiler, 23);
 
         compiler.setOnClickListener(view -> {
-            Intent i = new Intent(activity_chat_2_3_uzd.this, Compiler.class);
-            i.putExtra("description", "Now let\'s try something more complicated.\n\nTry to make a program that compares the value of (x) with 100 and depending on the comparison the (result) value will be\n(x is bigger than 100) or \n(x is less or equals 100)");
-            i.putExtra("task", "IfStatementsSecond");
-            i.putExtra("comment", "def firstIfStatement(x):\n    \n    if x ? ?:\n        result = ?\n    else:\n        result = ?\n    \n    return result");
+            Intent i = new Intent(activity_chat_2_3uzd.this, Compiler.class);
+            i.putExtra("description", "Now let\'s try something more complicated.\n\nTry to make a program which compares is (x) in the range from 50 to 100 inclusive. Returns the result, True/False");
+            i.putExtra("task", "IfStatementsThird");
+            i.putExtra("comment", "def isNumberInRange(x):\n    \n    if x                    :\n        result = True\n    else:\n        result = ?\n\n    return result");
             startActivity(i);
         });
         back.setOnClickListener(view -> finish());

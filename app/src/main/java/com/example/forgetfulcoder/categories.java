@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 import com.example.forgetfulcoder.category1.cat_1_level;
 import com.example.forgetfulcoder.category2.cat_2_level;
-import com.example.forgetfulcoder.category3.cat_3_level;
 
 public class categories extends AppCompatActivity {
 
@@ -28,10 +27,6 @@ public class categories extends AppCompatActivity {
         });
         category2.setOnClickListener(view -> {
             Intent i = new Intent(categories.this, cat_2_level.class);
-            startActivity(i);
-        });
-        category3.setOnClickListener(view -> {
-            Intent i = new Intent(categories.this, cat_3_level.class);
             startActivity(i);
         });
     }

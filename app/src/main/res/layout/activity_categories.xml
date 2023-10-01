@@ -145,8 +145,8 @@
             android:fontFamily="@font/franklingothicheavy"
             android:layout_above="@id/cat4Text"/>
 
-        <TextView
-            android:id="@+id/cat3Text2"
+        <ImageView
+            android:id="@+id/cat4Text2"
             android:text="@string/category_name_3"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -156,7 +156,8 @@
             android:layout_below="@+id/cat2"
             android:padding="15dp"
             android:fontFamily="@font/franklingothicheavy"
-            android:layout_above="@id/cat4Text"/>
+            android:src="@drawable/lock"
+            android:layout_above="@+id/cat4Text"/>
 
         <TextView
             android:id="@+id/cat4Text"

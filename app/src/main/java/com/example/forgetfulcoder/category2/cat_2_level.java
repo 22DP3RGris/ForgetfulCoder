@@ -26,7 +26,7 @@ public class cat_2_level extends AppCompatActivity {
 
         lvl1.setOnClickListener(view -> {Intent i = new Intent(cat_2_level.this, activity_chat_2_1uzd.class); startActivity(i);});
         lvl2.setOnClickListener(view -> {Intent i = new Intent(cat_2_level.this, activity_chat_2_2uzd.class); startActivity(i);});
-        lvl3.setOnClickListener(view -> {Intent i = new Intent(cat_2_level.this, activity_chat_2_3_uzd.class); startActivity(i);});
+        lvl3.setOnClickListener(view -> {Intent i = new Intent(cat_2_level.this, activity_chat_2_3uzd.class); startActivity(i);});
         back.setOnClickListener(view -> finish());
     }
 }
